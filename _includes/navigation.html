@@ -1,5 +1,41 @@
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link | relative_url }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
-</nav>
+<div class="navbar-wrap bg-dark">
+
+<div class="container">
+
+
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="{{ '/' | relative_url }}">STRPG</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        {% for item in site.data.navigation %}
+          {% if item.submenu %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{ item.name }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                {% for sublink in item.submenu %}
+                  <a class="dropdown-item{% if page.url == sublink.link %} active{% endif %}" href="{{ sublink.link | relative_url }}"{% if sublink.target %} target="{{ sublink.target }}"{% endif %}>{{ sublink.name }}</a>
+                {% endfor %}
+              </div>
+            </li>
+          {% else %}
+            <li class="nav-item{% if page.url == item.link %} active{% endif %}">
+              <a class="nav-link" href="{{ item.link | relative_url }}"{% if item.target %} target="{{ item.target }}"{% endif %}>
+                {{ item.name }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      </div>
+    </nav>
+
+  </div>
+</div>
+

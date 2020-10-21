@@ -1,9 +1,37 @@
-- name: Home
+- name: Game
   link: /
-
-- name: About
-  link: /about/
-- name: Blog
-  link: /blog/
-- name: Staff
-  link: /staff/
+  submenu:
+    - name: Setting
+      link: /setting/
+    - name: Trade
+      link: /trade/
+    - name: Tavares Commercial Freighter
+      link: /tavares-commercial-freighter/
+    - name: Remora Infiltration Shuttle
+      link: /remora-infiltration-shuttle/
+- name: Resources
+  link: /
+  submenu:
+    - name: Source Materials
+      link: /source-materials/
+    - name: World Atlas
+      link: https://github.com/briancribb/strpg-world-atlas
+      target: _blank
+    - name: Timeline
+      link: https://github.com/briancribb/strpg-timeline
+      target: _blank
+- name: HERO System
+  link: /
+  submenu:
+    - name: Making Characters
+      link: /making-characters/
+    - name: Skills
+      link: /skills/
+    - name: Racial Packages
+      link: /racial-packages/
+    - name: Starfleet Packages
+      link: /starfleet-packages/
+    - name: Merchant Packages
+      link: /merchant-packeges/
+    - name: Weapons
+      link: /weapons/

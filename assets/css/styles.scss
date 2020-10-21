@@ -1,3 +1,18 @@
 ---
 ---
+$baseurl: "{{ site.baseurl }}";
+
 @import 'main';
+
+
+
+pre.lineno {
+    margin-right: 0.5rem;
+}
+
+.bg-space {
+	background: #000000 url(#{$baseurl}assets/img/bg_stars.jpg);
+}
+.site-description {
+	color: #bbb;
+}
