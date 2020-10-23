@@ -17,7 +17,7 @@ I was always disappointed with the way the various television shows kept changin
 
 But I digress. This game will use the FASA setting. Wherever the television shows conflict with FASA, I will most likely side with FASA. I’m going to post some primer information on this site so you’ll know where things land. I’ll also be posting som HERO system stats for various characters and things, but I’ll need some help from my more HERO-fluent friends to make the conversions.
 
-Ink drawing of the USS Enterprise
+{% picture assets/img/pages/enterprise-front-sketch.jpg alt="Ink drawing of the USS Enterprise" class="img-fluid d-block mx-auto" %}
 
 ## How much HERO vs. How Much FASA
 

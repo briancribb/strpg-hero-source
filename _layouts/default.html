@@ -5,17 +5,17 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{site.baseurl}}assets/css/styles.css">
   </head>
-  <body>
-    <header class="mb-4">
+  <body class="position-relative">
+    <header class="main-header">
       {% include navigation.html %}
       {% include space-header.html %}
     </header>
-    <main>
+    <main class="content py-4">
       <div class="container">
         {{ content }}
       </div>
     </main>
-    <footer id="main-footer" class="fixed-bottom py-3">
+    <footer id="main-footer" class="main-footer py-3 bg-dark text-white">
       <div class="container">
         <p class="mb-0"><small><em>Star Trek is owned by Paramount. I don't know who owns the old FASA content, but it's not me. Nothing on this site is for sale. The whole thing is just for fun.</em></small></p>
       </div>
