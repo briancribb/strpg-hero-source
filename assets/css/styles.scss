@@ -1,18 +1,12 @@
 ---
 ---
+// Doing everything in the _sass folder.
+
+@import 'local-bootstrap';
+
+@import "syntax-highlight";
+
+// Local site variables.
 $baseurl: "{{ site.baseurl }}";
 
-@import 'main';
-
-
-
-pre.lineno {
-    margin-right: 0.5rem;
-}
-
-.bg-space {
-	background: #000000 url(#{$baseurl}assets/img/layout/bg_stars.jpg);
-}
-.site-description {
-	color: #bbb;
-}
+@import "base";

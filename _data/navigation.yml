@@ -12,8 +12,8 @@
 - name: Resources
   link: /
   submenu:
-    - name: Source Materials
-      link: /source-materials/
+    - name: FASA Books
+      link: /fasa-books/
     - name: World Atlas
       link: https://github.com/briancribb/strpg-world-atlas
       target: _blank
