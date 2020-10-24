@@ -5,7 +5,7 @@ permalink: /remora-infiltration-shuttle/
 
 # {{ page.title }}
 
-This one-of-a-kind prototype was recently built for Starfleet Intelligence. It’s primary function is to attach itself to the hull of a much larger vessel while in orbit. Once in place, the pilot may enter the vessel through an airlock, listen to internal transmissions or even place explosives on the hull. (These tasks vary in difficulty with each target.) Once its work is complete, the Remora detaches from the target and returns to it’s parent vessel.
+<p class="lead">This one-of-a-kind prototype was recently built for Starfleet Intelligence. It’s primary function is to attach itself to the hull of a much larger vessel while in orbit. Once in place, the pilot may enter the vessel through an airlock, listen to internal transmissions or even place explosives on the hull. (These tasks vary in difficulty with each target.) Once its work is complete, the Remora detaches from the target and returns to it’s parent vessel.</p>
 
 {% picture assets/img/pages/cargo-ship-in-orbit.jpg alt="Cargo ship in orbit." class="img-fluid d-block mx-auto" %}
 

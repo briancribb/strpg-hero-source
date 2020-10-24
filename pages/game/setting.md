@@ -5,11 +5,9 @@ permalink: /setting/
 
 # {{ page.title }}
 
-Stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things and stuff and things...
+<p class="lead">Our story begins in the area of space known as the Triangle on Stardate 2/0003.01, about a year-and-a-half after the Four Years War against the Klingons ended on Stardate 1/9806.13. The war spilled over into the Triangle, so every character will have some kind of connection to it. For reference, the five-year mission from the original TV series began on Stardate 2/0704.00, when Kirk took command of the Enterprise. For an explanation of stardates, see the footer on my Star Trek Timeline.</p>
 
 {% picture assets/img/pages/orion-ship-orbit_dana-knutson.jpg alt="Orion Class V Blockade Runner in Orbit. Drawing by Dana Knutson" class="img-fluid d-block mx-auto" %}
-
-Our story begins in the area of space known as the Triangle on Stardate 2/0003.01, about a year-and-a-half after the Four Years War against the Klingons ended on Stardate 1/9806.13. The war spilled over into the Triangle, so every character will have some kind of connection to it. For reference, the five-year mission from the original TV series began on Stardate 2/0704.00, when Kirk took command of the Enterprise. For an explanation of stardates, see the footer on my Star Trek Timeline.
 
 Another important detail is the Federation’s reaction to the Orion slave trade. After the industry became known to the UFP, the Federation Council voted unanimously to impose harsh sanctions against Orion companies, ports, and shipping interests that participate in the Green Slave trade. At the time of our game, The sanctions have just gone into effect and traders everywhere are freaking out.
 
@@ -78,6 +76,6 @@ So it stands to reason that an under-developed planet could be populated by what
 
 ## Defacto Segregation Happens Sometimes
 
-Even though it’s pretty common to have a mixed up ship, sometimes people gravitate to voluntary assignments by species. For example, Andorians and Vulcans prefer not to serve together for long periods because their ideal temperatures are very different. It’s not a huge problem, but it’s not unheard of for a species to prefer the comfort of their own culture and thermostat settings.
+Even though it’s pretty common to have a mixed-up ship, sometimes people gravitate to voluntary assignments by species. For example, Andorians and Vulcans prefer not to serve together for long periods because their ideal temperatures are very different. It’s not a huge problem, but it’s not unheard of for a species to prefer the comfort of their own culture and thermostat settings.
 
 This mostly applies to voluntary assignments, since Starfleet will assign a person to a position according to their career field with no regard for species. That being said, it’s considered a jerk move to assign Vulcans to ice planets unless it’s really necessary.

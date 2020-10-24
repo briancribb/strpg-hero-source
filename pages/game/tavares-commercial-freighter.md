@@ -5,7 +5,7 @@ permalink: /tavares-commercial-freighter/
 
 # {{ page.title }}
 
-*Edit: The following information is directly from the FASA sourcebooks, and is written from the perspective of the Star Trek films. Our campaign takes place before the original series, in the year that this class was introduced. I’ll most likely adjust that service date by five years so these vessels can be more common at the time of our story.  
+<p class="lead font-italic">*Edit: The following information is directly from the FASA sourcebooks, and is written from the perspective of the Star Trek films. Our campaign takes place before the original series, in the year that this class was introduced. I’ll most likely adjust that service date by five years so these vessels can be more common at the time of our story.</p>
 -BC*
 
 {% picture assets/img/pages/tavares_jim-nelson.jpg alt="Tavares Freighter landing. Drawing by Jim Nelson" class="img-fluid d-block mx-auto" %}
