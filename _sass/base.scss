@@ -9,6 +9,11 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+.container {
+	max-width: 800px;
+}
+
 .content {
 	flex: 1 0 auto;
 }

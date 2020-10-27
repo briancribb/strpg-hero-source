@@ -51,7 +51,7 @@ Although it can provide nutrition for any race, it’s generally considered to b
 
 The original series had a mostly human setting because painting someone blue every week just wasn’t practical with their budget. However, in our RPG those limitations don’t apply. This means that Andorians and Tellarites will be much more common than they were in the shows, and even more common than they are in the source materials for the FASA RPG. Vulcans will be less common since they live longer and reproduce much slower than the others.
 
-![Andorian Sketch from 1986]({{site.baseurl}}assets/img/pages/andorian-sketch.jpg){:.rounded .mx-auto .d-block}
+![Andorian Sketch from 1986]({{site.baseurl}}assets/img/pages/andorian-sketch.jpg){:.img-fluid .mx-auto .d-block}
 
 In the old days, Andorian antennae were in the back.
 FASA games and the Enterprise series did admirable jobs of explaining the lack of a Klingon head ridge in the original series, but we’re not going to bother. In this game, imperial Klingons have always been the only kind of Klingon. So just imagine the guys from the old show with the funny foreheads. Same uniforms, same short haircuts, same beards… just with the current bumpy forehead.

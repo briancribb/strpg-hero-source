@@ -1,3 +1,7 @@
+---
+
+---
+
 <div class="card-toggle card mb-3" data-toggle="collapse" href="#lasers" aria-controls="lasers" aria-expanded="false" role="button">
 	<div class="card-header card-toggle-header h4 font-weight-normal bg-primary card-inverse"><span class="card-toggle-title float-left">Lasers</span><span class="fa fa-chevron-down float-right trans-all"></span></div>
 </div>
@@ -45,7 +49,7 @@
 		<p>Phasers are more advanced than lasers, sporting lots of nifty settings. Two things are different from the show, however. I'm nixing the disintegrate setting because it's overpowered, and the overload setting isn't worth messing with the points. I'm just going to wing it depending upon what's left in the power pack.</p>
 		<p>Because phasers are relatively new at the time of our campaign, they are primarily carried by Starfleet personnel. Black market knock-offs are available in the Triangle, but they're expensive and not quite as good as the official Starfleet model.</p>
 		<p><strong>NOTE:</strong> A Phaser II is essentially a supplimentary power pack shaped like a handle, with a Phaser I fitted into it. If necessary, the weapon can be disassembled.</p>
-		<img class="aligncenter" src="<?php echo(get_template_directory_uri() . '/src/img/panel-groups/phaser2-ad.gif') ?>" alt="Advertisement for a knockoff of the Starfleet Phaser model 2.">
+		{% picture assets/img/pages/phaser2-ad.jpg alt="Advertisement for a knockoff of the Starfleet Phaser model 2" class="img-fluid d-block mx-auto" %}
 		<table class="table">
 			<thead>
 				<th>Cost</th>
@@ -112,13 +116,13 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-3">
-					<img class="aligncenter" src="<?php echo(get_template_directory_uri() . '/src/img/panel-groups/klingon-mark-1-disruptor.gif') ?>" alt="Klingon Mark I hand disruptor, Mark I disruptor rifle, and Mark II hand disruptor.">
+					<img class="img-fluid mx-auto d-block" alt="Klingon Mark I Hand Disruptor from 1986" src="{{site.baseurl}}assets/img/pages/klingon-mark-1-disruptor.gif">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-3">
-					<img class="aligncenter" src="<?php echo(get_template_directory_uri() . '/src/img/panel-groups/klingon-mark-2-disruptor.gif') ?>" alt="Klingon Mark I hand disruptor, Mark I disruptor rifle, and Mark II hand disruptor.">
+					<img class="img-fluid mx-auto d-block" alt="Klingon Mark II Hand Disruptor from 1986" src="{{site.baseurl}}assets/img/pages/klingon-mark-2-disruptor.gif">
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6">
-					<img class="aligncenter" src="<?php echo(get_template_directory_uri() . '/src/img/panel-groups/klingon-mark-1-disruptor-rifle.gif') ?>" alt="Klingon Mark I hand disruptor, Mark I disruptor rifle, and Mark II hand disruptor.">
+					<img class="img-fluid mx-auto d-block" alt="Klingon Mark I Disruptor Rifle" src="{{site.baseurl}}assets/img/pages/klingon-mark-1-disruptor-rifle.gif">
 				</div>
 			</div>
 		</div>
