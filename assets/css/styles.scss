@@ -9,4 +9,5 @@
 // Local site variables.
 $baseurl: "{{ site.baseurl }}";
 
+@import "partials/trans";
 @import "base";

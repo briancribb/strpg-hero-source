@@ -1,9 +1,5 @@
----
-
----
-
 <div class="card-toggle card mb-3" data-toggle="collapse" href="#lasers" aria-controls="lasers" aria-expanded="false" role="button">
-	<div class="card-header card-toggle-header h4 font-weight-normal bg-primary card-inverse"><span class="card-toggle-title float-left">Lasers</span><span class="fa fa-chevron-down float-right trans-all"></span></div>
+	<div class="card-header card-toggle-header h4 font-weight-normal bg-secondary"><span class="card-toggle-title float-left">Lasers</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
 </div>
 <div id="lasers" class="collapse">
 	<div class="pb-3">
@@ -42,7 +38,7 @@
 
 
 <div class="card-toggle card mb-3" data-toggle="collapse" href="#phasers" aria-controls="phasers" aria-expanded="false" role="button">
-	<div class="card-header card-toggle-header h4 font-weight-normal bg-primary card-inverse"><span class="card-toggle-title float-left">Phasers</span><span class="fa fa-chevron-down float-right trans-all"></span></div>
+	<div class="card-header card-toggle-header h4 font-weight-normal bg-primary"><span class="card-toggle-title float-left">Phasers</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
 </div>
 <div id="phasers" class="collapse">
 	<div class="pb-3">
@@ -106,7 +102,7 @@
 
 
 <div class="card-toggle card mb-3" data-toggle="collapse" href="#disruptors" aria-controls="disruptors" aria-expanded="false" role="button">
-	<div class="card-header card-toggle-header h4 font-weight-normal bg-primary card-inverse"><span class="card-toggle-title float-left">Disruptors</span><span class="fa fa-chevron-down float-right trans-all"></span></div>
+	<div class="card-header card-toggle-header h4 font-weight-normal bg-secondary"><span class="card-toggle-title float-left">Disruptors</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
 </div>
 <div id="disruptors" class="collapse">
 	<div class="pb-3">

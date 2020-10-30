@@ -29,9 +29,26 @@ pre.lineno {
 .bg-space {
 	background: #000000 url(#{$baseurl}assets/img/layout/bg_stars.jpg);
 }
-.site-description {
+.masthead-homelink, .masthead-homelink:hover {
 	color: #bbb;
+	text-decoration: none;
 }
+
+
+
+// Turning the chevron around when a card toggle opens its content.
+div.card-toggle[aria-expanded="true"] {
+	.fa-chevron-right {
+		margin-top: .125rem;
+		transform: rotate(90deg);
+	}
+}
+
+
+
+
+
+
 
 .book-list-item {
 	p:last-child, ol:last-child, li:last-child {

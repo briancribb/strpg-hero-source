@@ -7,8 +7,8 @@
 
 @import "bootstrap-4.5.3/functions";
 
-@import "bootstrap-4.5.3/variables";
-@import "custom-variables";
+//@import "bootstrap-4.5.3/variables";
+@import "partials/custom-variables";
 
 
 @import "bootstrap-4.5.3/mixins";
@@ -27,7 +27,10 @@
 @import "bootstrap-4.5.3/input-group";
 @import "bootstrap-4.5.3/custom-forms";
 @import "bootstrap-4.5.3/nav";
+
 @import "bootstrap-4.5.3/navbar";
+//@import "partials/navbar"
+
 @import "bootstrap-4.5.3/card";
 @import "bootstrap-4.5.3/breadcrumb";
 @import "bootstrap-4.5.3/pagination";
@@ -46,3 +49,4 @@
 @import "bootstrap-4.5.3/spinners";
 @import "bootstrap-4.5.3/utilities";
 @import "bootstrap-4.5.3/print";
+
