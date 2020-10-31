@@ -1,0 +1,42 @@
+.content-front {
+  z-index: 4;
+}
+
+img.shuttle {
+  margin:1rem auto;
+}
+
+.starfield {
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%; 
+  min-height:100%;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+}
+
+.stars-large  {
+  z-index:3;
+  background-image: url(#{$baseurl}assets/img/layout/stars_large.png);
+}
+.stars-medium {
+  z-index:2;
+  background-image: url(#{$baseurl}assets/img/layout/stars_medium.png);
+}
+.stars-small  {
+  z-index:1;
+  background-image: url(#{$baseurl}assets/img/layout/stars_small.png);
+}
+
+
+
+@include media-breakpoint-down(sm) {
+  .error-container {
+    margin:10px 0;
+  }
+  img.ship {
+    margin:20px auto;
+    max-width: 100px;
+  }
+}

@@ -10,4 +10,5 @@
 $baseurl: "{{ site.baseurl }}";
 
 @import "partials/trans";
+@import "partials/custom404";
 @import "base";

@@ -21,3 +21,39 @@
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
 }
+
+.trans-bg-position {
+  -webkit-transition:background-position .5s linear;
+  transition:background-position .5s linear;
+}
+
+.spin-always {
+  animation: infiniteSpin 5s linear infinite; /* IE 10+ */
+}
+
+.move-left-fast  {
+  animation: animatedBackground 5s linear infinite; /* IE 10+ */
+}
+.move-left-medium  {
+  animation: animatedBackground 7s linear infinite; /* IE 10+ */
+}
+.move-left-slow  {
+  animation: animatedBackground 10s linear infinite; /* IE 10+ */
+}
+
+
+
+
+@keyframes infiniteSpin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animatedBackground {
+  0%   { background-position: 0 0; }
+  100% { background-position: -500px 0; }
+}
