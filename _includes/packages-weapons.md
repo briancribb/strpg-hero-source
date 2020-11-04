@@ -51,7 +51,7 @@
 				<th>Cost</th>
 				<th>Description</th>
 			</thead>
-			<thead class="table-info">
+			<thead class="table-warning">
 				<th colspan=2>Phaser I: the palm-sized phaser from the original series.</th>
 			</thead>
 			<tr>
@@ -66,7 +66,7 @@
 				<td>4</td>
 				<td><strong>Kill</strong><br>2D6 Ranged Killing Attack: Armor Piercing (+1/2) (45 Active Points); Lockout: Stun (-1/2), Beam (-1/4), No Knockback(-1/4)</td>
 			</tr>
-			<thead class="table-info">
+			<thead class="table-warning">
 				<th colspan=2>Phaser II: the standard pistol from the original series.</th>
 			</thead>
 			<tr>
@@ -81,7 +81,7 @@
 				<td>4</td>
 				<td><strong>Kill</strong><br>2D6 Ranged Killing Attack: Armor Piercing (+1/2) (45 Active Points); Lockout: Stun (-1/2), Beam (-1/4), No Knockback(-1/4)</td>
 			</tr>
-			<thead class="table-info">
+			<thead class="table-warning">
 				<th colspan=2>Phaser Rifle</th>
 			</thead>
 			<tr>

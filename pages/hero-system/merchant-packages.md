@@ -13,7 +13,7 @@ Merchant academies are the most respected way to get into the trading business, 
 
 In either case, the character goes through the initial training and is then evaluated to see if they should continue. If a character washes out of an academy after the first two years, they can still try to get an apprenticeship for their specialty training. And if an apprenticeship doesn’t work out, there’s always enough hard work to go around.
 
-For those who work their way up, just use the apprentice packages below and increase the amount of time required to complete them. On-the-job training takes longer than the other options. Without some lucky breaks, it can take far more than three years for a person to work their way up to the UFP/ITA certification test, and even more to reach the pay grade of an academy graduate.
+For those who work their way up, just use the apprentice packages below and increase the amount of time required to complete them. On-the-job training takes longer than the other options. Without some lucky breaks, it can take far more than three years for a person to work their way up to the  **UFP/ITA** _(United Federation of Planets Independent Traders Association)_ certification test, and even more to reach the pay grade of an academy graduate.
 
 ### Merchant Tickets
 

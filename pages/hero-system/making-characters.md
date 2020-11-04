@@ -5,7 +5,9 @@ permalink: /making-characters/
 
 # {{ page.title }}
 
-<p class="lead">For the most part, our characters will be the same as those in any other HERO System 5th Edition game, aside from the setting. Characters have <strong>75 base points with up to 75 points in disadvantages</strong>, for a total of 150. The various playable species have their own racial and cultural packages to purchase, and I’ve also provided packages for the different types of training offered by Starfleet and Civilian merchant academies.</p>
+<p class="lead">For the most part, our characters will be the same as those in any other HERO System 5th Edition game, aside from the setting. Characters have <strong>75 base points</strong> with up to <strong>75 points in disadvantages</strong>, for a total of 150. The maximum points for a single disadvantage is 25 points. This comes from the <strong>Character Types Guidelines Table</strong> on page 28 of the 5th Edition Hero System book.</p>
+
+The various playable species have their own racial and cultural packages to purchase, and I’ve also provided packages for the different types of training offered by Starfleet and Civilian merchant academies.
 
 {% picture assets/img/pages/space-lanes-66.jpg alt="Drawing of Jaan Holona with Cargomaster Kinnda" class="img-fluid d-block mx-auto" %}
 
@@ -73,10 +75,28 @@ A well-rounded civilian engineer from a merchant academy just gets these three b
 
 ## Example Character
 
-I decided to make a Starfleet captain with Hero Designer so I could test the various prefabs and packages that I’ve made for the game. The file is included in the <em>Characters</em> folder of the ZIP that I’m providing for everyone. Hopefully these notes will help you whether you’re using the software or just going old school with paper and pencil. Just keep in mind that these packages are meant to guide you, not restrict you. Starfleet officers will have lots in common, but there should be room to play with the numbers a bit.
+I'm going to make a character with Hero Designer so we can test the various prefabs and packages that I provided in the [ZIP file]({{ '/assets/files/HERO_STRPG.zip' | relative_url }}). Everything is in there, so I'll be referencing that folder structure as we go. I recommend saving all of your characters in the <code>characters</code> folder so it will be easier to navigate to the others when you're loading prefabs and whatnot.
 
-<ol>
-	<li>Start with a new character using the Heroic template. The software defaults to 200/150, so change the point totals to <strong>75/75</strong>. <em>(Points/Disads)</em></li>
+Hopefully these notes will help you whether you’re using the software or just going old school with paper and pencil. Just keep in mind that these packages are meant to guide you, not restrict you. Starfleet officers will have lots in common, but there should be room to play with the numbers a bit.
+
+<div class="alert alert-info" role="alert">
+	<strong>Note about Package Deals:</strong> You can't edit package deals. You have to make a character and save it that way. So the <code>characters/package_deal_source</code> folder contains the source characters that we can still edit, while the <code>packages</code> folder contains the resulting package deals that you'll import into your characters.
+
+	If you have prefabs loaded already and a package deal also has them, then you could end up with the same prefab twice. It's just a bug and won't affect your character build.
+</div>
+<ol start="1">
+	<li>Create a new character. Doesn't matter what kind because we're about to load some campaign rules</li>
+	<li>Load Campaign Rules. Go to <em>Current Character > Load Campaign Rules</em> and navigate to <code>campain_rules/standard_normal.hdr</code>. That will set your point limites to 75/75 as noted at the top of this page.</li>
+	<li>Load Prefabs. Three are three prefabs that we'll need: Everyman, General and Weapons. Go to <em>Prefabs > Load Prefabs</em> and get all three from the <code>prefabs</code> folder.</li>
+</ol>
+
+Go ahead any **Everyman** skills that you need, because they're free. Remember, if you end up spending a point for a full skill, you can drop the familiarity. Consider it an upgrade. The **General** prefab has all of the game-specific skills that you'll need. Many of these will be loaded via package deals, but you should check out the list anyway. The **Weapons** prefab will show up in the "Equipment" tab, and then remember to click "Prefabs" to see them.
+
+### Now We're Cooking
+
+At this point the Hero Designer people and the pencil/paper people should be on even footing. If you're using paper, then the other pages in this section of the site will show you the point costs for everything. Either way, it's time to start spending points. For the software, you can find package deals by going to <em>Current Character > Apply Package Deal</em>. Then navigate to wherever your main folder is and look in the <code>packages</code> folder for all of the files. The filenames should be self-explanatory.
+
+<ol start="4">
 	<li>Add the racial package that you want, and then the cultural package that you want. They’ll most likely match, but you could make a Terran who grew up on Andor by skipping the racial package entirely and just using the Andorian cultural package. I chose Andorian for both. Check all of the tabs to see what skills, perks and disads the character now has.</li>
 	<li>Since this is a Starfleet officer, add the Starfleet Academy package, followed by a branch school package. I chose E<em>ngineering</em>.</li>
 	<li>This character will be a captain, so I added the <em>Department Head School</em> package followed by <em>Command School</em>.</li>
@@ -84,11 +104,33 @@ I decided to make a Starfleet captain with Hero Designer so I could test the var
 
 The various lists are labeled to show you what came from where. At this point you’ve spent <strong>55/35</strong> and you can see a few problems. <em>Electronics</em> is given as a familiarity in Starfleet Academy, and then as a full skill in Engineering Branch School. This is intended as an upgrade, so we’ll end up dropping the familiarity and taking the point back. Similar issues are on other tabs, so I’ll make a quick list:
 
-<ol>
-	<li>Electronics appears twice, as described above. I simply deleted the familiarity from Starfleet Academy, considering branch school as a completion of that skill. <em>That gave me back a point.</em></li>
-	<li>There’s a space science elective in Starfleet Academy, and then there are a couple in branch school. I could specify a different space science skill so it won’t conflict, or I can drop that familiarity and consider <strong>Astrophysics</strong> or <strong>Warp Drive Physics</strong> to be an upgrade. I’m choosing to put <strong>Astrogation</strong> in there, so my engineer will also know a little about navigating. Astrogation is technically <strong>Navigation</strong>, but it’s treated as a space science for the purpose of skill levels and character creation. (<em>It doesn’t count as one for skill enhancers like Scientist, however.)</em> Anyway, I deleted the “chosen” space science from the Academy and replaced it with the Astrogation skill from the <em>General</em> prefab. Then I downgraded it to a familiarity. For my Physical Science familiarity, I chose <strong>Chemistry</strong>.</li>
-	<li>We’ll need to add some perks. <strong>Department Head School</strong> and <strong>Command School</strong> grant a promotion, so this guy will exit the Academy at Ensign, then progress to Lieutenant Junior Grade and then to full Lieutenant.  Rank and SECLAR are role-playing perks, so they don’t cost points. Since this character will be a Captain, I promoted him again and just grabbed the appropriate perks from the General prefab. This left him with a rank of <strong>Captain</strong> and a <strong>SECLAR</strong> of <strong>5</strong>, which is granted to starship captains and first officers. And of course he has his engineer’s license from branch school.</li>
-	<li>If this were an Intelligence character with a cover identity, I would have to get rid of the disad for his uniform being a distinctive feature. No problem with that here, though. However, he’s a captain on a starship out on the frontier and tends to have standing orders rather than frequent orders. I’m reducing the <em>Subject to Orders</em> disadvantage to <em>Occasionally</em>, with a final value of five points.</li>
+<ol start="7">
+	<li>
+		Electronics appears twice, as described above. I simply deleted the familiarity from Starfleet Academy, considering branch school as a completion of that skill. <em>That gave me back a point.</em>
+	</li>
+	<li>
+		There’s a space science elective in Starfleet Academy, and then there are a couple of specified space sciences in branch school. I could name something different for the elective so it won’t conflict, or I can drop that familiarity and consider <strong>Astrophysics</strong> or <strong>Warp Drive Physics</strong> to be an upgrade. It depends upon whether you want that point back. I’m choosing to put <strong>Astrogation</strong> in there, so my engineer will also know a little about navigating.
+	</li>
+</ol>
+
+<div class="alert alert-info" role="alert">
+	Astrogation is technically the <strong>Navigation</strong> skill from the HERO System, but it’s treated as a space science for the purpose of skill levels and character creation. (<em>It doesn’t count as one for skill enhancers like Scientist, however.)</em>
+</div>
+<ol start="9">
+	<li>
+		The only difference between "Chosen" and "Astrogation" is some description text, so you can just edit the skill or you can delete the “Chosen” space science from the Starfleet Academy list and replace it with the <strong>Astrogation</strong> skill from the <em>General</em> prefab and downgrade it to a familiarity. For my Physical Science familiarity, I chose <strong>Chemistry</strong>. Again, they're both physical sciences with different descriptions, so I just edited the text from "Chosen" to "Chemistry".
+	</li>
+	<li>
+		Now we need to add some perks. <strong>Department Head School</strong> and <strong>Command School</strong> grant a promotion, so this guy will exit the Academy at Ensign, then progress to Lieutenant Junior Grade and then to full Lieutenant.  Rank and SECLAR are role-playing perks, so they don’t cost points. Since this character will be a Captain, I promoted him again and just grabbed the appropriate perks from the General prefab. This left him with a rank of <strong>Captain</strong> and a <strong>SECLAR</strong> of <strong>5</strong>, which is granted to starship captains and first officers. And of course he has his engineer’s license from branch school.
+	</li>
+</ol>
+<div class="alert alert-info" role="alert">
+	If I was going to just make a chief engineer then Command School would be optional. Starfleet requires it for officers who want to be a captain someday, so it's often taken along with Department Head School. Command School gives you familiarities in <em>Persuasion</em> and <em>Starship Strategy: Tactics</em>.
+</div>
+<ol start="11">
+	<li>
+		If this were an Intelligence character with a cover identity, I would have to get rid of the disad for his uniform being a distinctive feature. No problem with that here, though. However, he’s a captain on a starship out on the frontier and tends to have standing orders rather than frequent orders. I’m reducing the <em>Subject to Orders</em> disadvantage to <em>Occasionally</em>, with a final value of five points.
+	</li>
 </ol>
 
 And that’s it! I now have this character at <strong>58/30</strong>. That gives me 17 points to spend outright and another 45 points of disads that I can use if I need them.

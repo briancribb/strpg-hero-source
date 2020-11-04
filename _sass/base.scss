@@ -23,7 +23,7 @@ body {
 
 
 pre.lineno {
-		margin-right: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .bg-black {
@@ -37,6 +37,9 @@ pre.lineno {
 	text-decoration: none;
 }
 
+.navbar a {
+	text-decoration: none;
+}
 
 
 // Turning the chevron around when a card toggle opens its content.
