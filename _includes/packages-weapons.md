@@ -39,7 +39,7 @@
 	<div class="card-header h4 font-weight-normal bg-primary"><span class="float-left">Phasers</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
 </div>
 <div id="phasers" class="collapse">
-	<p>Phasers are more advanced than lasers, sporting lots of nifty settings. Because they're relatively new at the time of our campaign, they are primarily carried by Starfleet personnel. Black market knock-offs are available in the Triangle, but they're expensive and not quite as good as the official Starfleet model.</p>
+	<p>Phasers are more advanced than lasers, sporting lots of nifty settings. Because they're relatively new at the time of our campaign, they are primarily carried by Starfleet personnel. Black market knock-offs are available in the Triangle, but they're expensive and not quite as good as the official Starfleet model. <em>(For game purposes, knock-off hand phasers won't have the Disintigrate setting and the Stun setting will be one Damage Class lower.)</em></p>
 	<div class="alert alert-info" role="alert">
 		Although phasers can be used as weapons of war, they are designed primarily for stunning targets. A phaser set to stun can fire more shots before running out than any other sidearm.
 	</div>
