@@ -10,6 +10,10 @@
 		</thead>
 		<tr>
 			<td>4</td>
+			<td><strong>Western Block</strong><br>Martial Block: 1/2 Phase, +2 OCV, +2 DCV, Block, Abort<br><strong>Notes:</strong> Opponent swings wide or high for some reason and the character blocks in a dramatic fashion.</td>
+		</tr>
+		<tr>
+			<td>4</td>
 			<td><strong>Shoulder Roll</strong><br>Martial Dodge: 1/2 Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort</td>
 		</tr>
 		<tr>
