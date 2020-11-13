@@ -7,9 +7,9 @@ permalink: /making-characters/
 
 <p class="lead">For the most part, our characters will be the same as those in any other HERO System 5th Edition game, aside from the setting. Characters have <strong>75 base points</strong> with up to <strong>75 points in disadvantages</strong>, for a total of 150. The maximum points for a single disadvantage is 25 points. This comes from the <strong>Character Types Guidelines Table</strong> on page 28 of the 5th Edition Hero System book.</p>
 
-The various playable species have their own racial and cultural packages to purchase, and I’ve also provided packages for the different types of training offered by Starfleet and Civilian merchant academies.
-
 {% picture assets/img/pages/space-lanes-66.jpg alt="Drawing of Jaan Holona with Cargomaster Kinnda" class="img-fluid d-block mx-auto" %}
+
+The various playable species have their own racial and cultural packages to purchase, and I’ve also provided packages for the different types of training offered by Starfleet and Civilian merchant academies.
 
 The original FASA game tracked a person’s education in the character creation process, so that has been replicated to some extent. Skill packages are taken in order, and you don’t have to take all of them if your character has a different story. Maybe she went to another type of civilian school, or dropped out of Starfleet Academy, or whatever. Players are free to just spend their points without these packages, of course. Just keep in mind that racial and cultural packages are mandatory for applicable species.
 
