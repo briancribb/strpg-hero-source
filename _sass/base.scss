@@ -43,14 +43,16 @@ pre.lineno {
 
 
 // Turning the chevron around when a card toggle opens its content.
-div.card-toggle[aria-expanded="true"] {
-	.fa-chevron-right {
-		margin-top: .125rem;
-		transform: rotate(90deg);
-	}
+div.card[aria-expanded="true"] .card-header .fa-chevron-right {
+	margin-top: .125rem;
+	transform: rotate(90deg);
 }
 
-
+.table.package {
+	th:first-child {
+		width:4rem;
+	}
+}
 
 
 
