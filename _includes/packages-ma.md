@@ -33,10 +33,12 @@
 </div>
 <div id="batleth-art" class="collapse">
 	<p>This fighting style requires a bat'leth. These weapons didn't show up until <em>Star Trek: the Next Generation</em> but they're cool and everybody likes them so we needed this package.</p>
+	<p>A bat'leth is mostly a defensive weapon because of the way it's constructed, but it's weilded in an aggressive manner. The wielder can use the force of an opponent's strike to turn the blade around into a serious counter-attack.</p>
 	<div class="alert alert-info" role="alert">
-		A bat'leth is mostly a defensive weapon because of the way it's constructed, but it's weilded in an aggressive manner. The wielder can use the force of an opponent's strike to turn the blade around into a serious counter-attack.
+		Klingons normally carry disruptors rather than swords, and even those aren't used inside a starship for fear of punching a hole in the hull. There are bat'leths in the armory, however, and Klingons carry a knife at all times.
 	</div>
-	<p>In this time period, only Klingons have the opportunity to train with a bat'leth, and actual sword fights are rare. Outside of ritual combat, one Klingon rushing at another with a bat'leth will most likely just get himself shot.</p>
+	<p>Around the time of the Four Years War, only Klingons have the opportunity to train with a bat'leth, and actual sword fights are rare. Outside of ritual combat, one Klingon rushing at another with a bat'leth will most likely be shot dead.</p>
+	<p></p>
 	<table class="table border package">
 		<thead class="table-primary">
 			<th>Cost</th>

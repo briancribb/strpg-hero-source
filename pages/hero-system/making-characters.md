@@ -33,7 +33,7 @@ There are lots of technical skills in Star Trek, so we’re going to make it a l
 
 <dl>
 	<dt>Astronautics</dt>
-	<dd>Repairing starships, shuttles and other things that go into space. This mostly involves the engines, but can also refer to superstructure and hardware like weapons and sensor dishes.</dd>
+	<dd>Repairing starships, shuttles and other things that go into space. This mostly involves the engines, but can also refer to superstructure and hardware like weapons and sensor arrays.</dd>
 	<dt>Electronics</dt>
 	<dd>Anything with wires, including computers. In Star Trek, computer programming involved old-school soldering and plenty of wires. We’re not going to be quite that retro, but assume that any computer or electronic device falls under this category.</dd>
 	<dt>Mechanics</dt>
