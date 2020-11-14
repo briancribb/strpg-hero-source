@@ -5,7 +5,7 @@ permalink: /setting/
 
 # {{ page.title }}
 
-<p class="lead">Our story begins in the area of space known as the Triangle on Stardate 2/0003.01, about a year-and-a-half after the Four Years War against the Klingons ended on Stardate 1/9806.13. The war spilled over into the Triangle, so every character will have some kind of connection to it. For reference, the five-year mission from the original TV series began on Stardate 2/0704.00, when Kirk took command of the Enterprise. For an explanation of stardates, see the footer on my Star Trek Timeline.</p>
+<p class="lead">Our story begins in the area of space known as the Triangle on Stardate 2/0003.01, about a year-and-a-half after the Four Years War against the Klingons ended on Stardate 1/9806.13. The war spilled over into the Triangle, so every character will have some kind of connection to it. For reference, the five-year mission from the original TV series began on Stardate 2/0704.00, when Kirk took command of the Enterprise. For an explanation of stardates, see the footer on my <a title="Star Trek Timeline" href="http://briancribb.github.io/strpg-timeline/tl-react/">Star Trek Timeline</a>.</p>
 
 {% picture assets/img/pages/orion-ship-orbit_dana-knutson.jpg alt="Orion Class V Blockade Runner in Orbit. Drawing by Dana Knutson" class="img-fluid d-block mx-auto" %}
 
