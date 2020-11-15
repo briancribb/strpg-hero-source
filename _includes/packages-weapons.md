@@ -34,7 +34,6 @@
 	</table>
 </div>
 
-
 <div class="card mb-3" data-toggle="collapse" href="#phasers" aria-controls="phasers" aria-expanded="false" role="button">
 	<div class="card-header h4 font-weight-normal bg-primary"><span class="float-left">Phasers</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
 </div>
@@ -44,7 +43,7 @@
 		Although phasers can be used as weapons of war, they are designed primarily for stunning targets. A phaser set to stun can fire more shots before running out than any other sidearm.
 	</div>
 	<p>The Phaser II is essentially a supplimentary power pack shaped like a handle, with a Phaser I fitted into it. If necessary, the weapon can be disassembled.</p>
-	{% picture assets/img/pages/phaser2-ad.jpg alt="Advertisement for a knockoff of the Starfleet Phaser model 2" class="img-fluid d-block mx-auto" %}
+	{% picture assets/img/pages/phaser2-ad.jpg alt="Advertisement for a knockoff of the Starfleet Phaser model 2" class="img-fluid d-block mx-auto mb-3" %}
 	<table class="table border package">
 		<thead>
 			<th>END</th>
@@ -122,7 +121,6 @@
 	</table>
 </div>
 
-
 <div class="card mb-3" data-toggle="collapse" href="#disruptors" aria-controls="disruptors" aria-expanded="false" role="button">
 	<div class="card-header h4 font-weight-normal bg-secondary"><span class="float-left">Disruptors</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
 </div>
@@ -183,6 +181,29 @@
 		<tr>
 			<td>3</td>
 			<td><strong>Disrupt</strong><br>3D6 Ranged Killing Attack: +1 Increased STUN multiplier (+1/4), Reduced Endurance (1/2 END; +1/4) (67 Active Points); No Knockback(-1/4)</td>
+		</tr>
+	</table>
+</div>
+
+
+<div class="card mb-3" data-toggle="collapse" href="#melee-weapons" aria-controls="melee-weapons" aria-expanded="false" role="button">
+	<div class="card-header h4 font-weight-normal bg-primary"><span class="float-left">Melee Weapons</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
+</div>
+<div id="melee-weapons" class="collapse">
+	<p>Although there are lots of designs for weapons from different cultures, they don't make much difference where game mechanics are concerned. A Klingon <em>d'k tahg</em> is just a dagger for game purposes, and the <em>mek'leth</em> is essentially a short sword. The exception is the bat'leth.</p>
+	<p>The bat'leth is a two-handed weapon that does damage as a one-handed weapon, because most strikes involve pushing one point toward the opponent while pulling the other.</p>
+	<div class="alert alert-primary" role="alert">
+		The bat'leth tends to shine when used by an expert, and is mostly good for blocking when wielded by a novice. If a character is going to use a bat'leth, they should purchase some of its martial maneuvers.
+	</div>
+	{% picture assets/img/pages/klingon-sword-fight.jpg alt="Two klingons fighting with bat'leths" class="img-fluid d-block mx-auto mb-3" %}
+	<table class="table border package">
+		<thead class="table-info">
+			<th>END</th>
+			<th>Description</th>
+		</thead>
+		<tr>
+			<td>STR</td>
+			<td><strong>Bat'leth</strong><br>1D6 + 1 HTH Killing Attack: Two-handed, Medium Length</td>
 		</tr>
 	</table>
 </div>
