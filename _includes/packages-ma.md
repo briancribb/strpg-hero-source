@@ -40,7 +40,7 @@
 	<p>Around the time of the Four Years War, only Klingons have the opportunity to train with a bat'leth, and actual sword fights are rare. Outside of ritual combat, one Klingon rushing at another with a bat'leth will most likely be shot dead.</p>
 	<p></p>
 	<table class="table border package">
-		<thead class="table-primary">
+		<thead class="table-warning">
 			<th>Cost</th>
 			<th>Description</th>
 		</thead>

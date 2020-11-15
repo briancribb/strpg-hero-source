@@ -14,11 +14,8 @@
   submenu:
     - name: FASA Books
       link: /fasa-books/
-    - name: World Atlas
-      link: https://github.com/briancribb/strpg-world-atlas
-      target: _blank
     - name: Timeline
-      link: https://github.com/briancribb/strpg-timeline
+      link: http://briancribb.github.io/strpg-timeline/tl-react/
       target: _blank
 - name: HERO System
   link: /
