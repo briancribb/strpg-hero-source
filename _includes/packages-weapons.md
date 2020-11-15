@@ -197,7 +197,7 @@
 	</div>
 	{% picture assets/img/pages/klingon-sword-fight.jpg alt="Two klingons fighting with bat'leths" class="img-fluid d-block mx-auto mb-3" %}
 	<table class="table border package">
-		<thead class="table-info">
+		<thead class="table-warning">
 			<th>END</th>
 			<th>Description</th>
 		</thead>
