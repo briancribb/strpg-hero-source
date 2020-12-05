@@ -55,6 +55,16 @@ div.card[aria-expanded="true"] .card-header .fa-chevron-right {
 }
 
 
+// Definition lists
+dd {
+	margin-bottom:1.25rem;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	& > *:last-child {
+		margin-bottom: 0;
+	}
+}
 
 
 
