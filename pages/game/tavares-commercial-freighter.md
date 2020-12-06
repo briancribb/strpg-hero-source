@@ -68,7 +68,13 @@ This is an open second floor within the cargo bay, built to make use of the spac
 <dl>
 	<dt>Landing Gear</dt>
 	<dd>When the landing gear is raised, it can be accessed from this deck. There's a hallway in the foreward section with access hatches to the gear.</dd>
-	<dt>Smuggler's Storage</dt>
+	<dt>Water Storage</dt>
+	<dd>The tanks on the starboard side are just for water. When full, these tanks can supply the ship with plenty of water without any need for rationing. This includes the sinks, toilets, mopping floors, whatever.</dd>
+	<dt>Septic, Treatment and Liquid/Gas Storage</dt>
+	<dd>
+		<p>These three tanks are where the fun happens. One is a septic tank, which is fun to think about Bad stuff comes down, gets processed in the next tank and the freshly cleaned water goes over to the water storage tanks. We're about fifty years before replicators are invented, so individual toilets are unable to simply make the bad stuff "go away". However, the septic tank can be emptied by transporting it out and just never rematerializing it. The resulting energy is recycled through the ship's systems. Assume that there are special transponders in the tank to help with this.</p>
+		<p>The tank nearest the wall is actually an arrangement of smaller tanks which contain whatever industrial gasses or liquids that the plot requires. Coolants are a good example of this.</p>
+	</dd>
 	<dd>These areas are made to look like more machinery for the landing gear, but they're empty. Hidden access panels can be removed to store more cargo, and a thin layer of fake machinery inside will shield the empty area from casual scans.</dd>
 </dl>
 
@@ -92,6 +98,7 @@ This deck contains the bridge, and the lower portion of the shuttlebay, along wi
 	<dd>
 		<p>The shuttlebay covers two decks and is large enough for several standard size shuttlecraft. The doors are two decks high and the opening is protected by the standard magical force field system that lets Star Trek dock shuttles without pumping huge amounts of air into and out of a hangar. For game purposes, assume that the doors can be opened without losing air pressure, as long as the power is on.</p>
 		<p>There are also small tractor beam emitters in the upper portion (both external and internal) which are used to assist with landing. These aren't strong enough to grab anything outside of the ship, but it's enough to move shuttles around in an effort to make room for more.</p>
+		<p>If the crew keeps a shuttlecraft around on a regular basis, then fuel would be stored in the bay near a portable refueling unit.</p>
 	</dd>
 	<dt>Repair Shop</dt>
 	<dd>
