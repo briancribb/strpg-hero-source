@@ -29,7 +29,7 @@ Systems Operation is a catch-all sort of skill in the HERO game system, but for 
 
 ## Technical Skills have a Broader Scope
 
-There are lots of technical skills in Star Trek, so we’re going to make it a little easier to be knowledgable without blowing all of your character points on being an engineer. Astronautics, Mechanics and Electronics are general skills which will allow a character to do anything at a competent level.
+There are lots of technical skills in Star Trek, so we’re going to make it a little easier to be knowledgable without blowing all of your character points on being an engineer. <strong>Astronautics, Mechanics and Electronics</strong> are general skills which will allow a character to do anything at a competent level. Skill levels can be bought normally for specific technologies, but there are only seven of them so they can be considered a "group of similar skills". One skill level for all of them would cost five points, but you could by several 2-point skill levels for just one to be <strong>really</strong> good at just that.
 
 <dl>
 	<dt>Astronautics</dt>
