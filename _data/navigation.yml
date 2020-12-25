@@ -7,10 +7,10 @@
       link: /trade/
     - name: Tavares Commercial Freighter
       link: /tavares-commercial-freighter/
+    - name: Klingon Trade Ship Vorn
+      link: /klingon-trade-ship-vorn/
     - name: Remora Infiltration Shuttle
       link: /remora-infiltration-shuttle/
-    - name: Klingon Trade Ship Example
-      link: /klingon-trade-ship-example/
 - name: Resources
   link: /
   submenu:

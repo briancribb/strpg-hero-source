@@ -1,12 +1,11 @@
 ---
-title: Klingon Trade Ship Example
-permalink: /klingon-trade-ship-example/
+title: Klingon Trade Ship Vorn
+permalink: /klingon-trade-ship-vorn/
 ---
 
 # {{ page.title }}
 
-<p class="lead font-italic">*Edit: The following information is directly from the FASA sourcebooks, and is written from the perspective of the Star Trek films. Our campaign takes place before the original series, in the year that this class was introduced. I’ll most likely adjust that service date by a few years so these vessels can be more common at the time of our story.</p>
--BC*
+<p class="lead font-italic">*Edit: The map and information for the ship is directly from the FASA sourcebooks, and is written from the perspective of the Star Trek films. Our campaign takes place before the original series, in the year that this class was introduced. I’ll most likely adjust that service date by a few years so these vessels can be more common at the time of our story.<br>-BC*</p>
 
 {% picture assets/img/pages/ship_w2warpshuttle.jpg alt="Klingon W-2 Warpshuttle" class="img-fluid d-block mx-auto" --link {{site.baseurl}}assets/files/W2_Warpshuttle_Plans.pdf %}
 
