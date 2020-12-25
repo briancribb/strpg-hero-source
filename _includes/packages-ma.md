@@ -1,13 +1,17 @@
-<div class="card mb-3" data-toggle="collapse" href="#starfleet-hth" aria-controls="starfleet-hth" aria-expanded="false" role="button">
-	<div class="card-header h4 font-weight-normal bg-secondary"><span class="float-left">Starfleet Hand-to-Hand</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
+<div class="card mb-3" data-toggle="collapse" href="#startrek-hth" aria-controls="startrek-hth" aria-expanded="false" role="button">
+	<div class="card-header h4 font-weight-normal bg-secondary"><span class="float-left">Star Trek Hand-to-Hand</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
 </div>
-<div id="starfleet-hth" class="collapse">
+<div id="startrek-hth" class="collapse">
 	<p>This fighting styles is designed to resemble the 1960's television show. It's meant to add flavor to the setting, and could just as easily be named "Kirk-Fu" or "Shatner Do".</p>
 	<table class="table border package">
 		<thead class="table-info">
 			<th>Cost</th>
 			<th>Description</th>
 		</thead>
+		<tr>
+			<td>4</td>
+			<td><strong>Straight Punch</strong><br>Martial Strike: 1/2 Phase, +0 OCV, +2 DCV, STR +2d6 Strike<br><strong>Notes:</strong> Right or left strike to the face or body, with a big wind-up so the other stuntman knows what to do.</td>
+		</tr>
 		<tr>
 			<td>4</td>
 			<td><strong>Western Block</strong><br>Martial Block: 1/2 Phase, +2 OCV, +2 DCV, Block, Abort<br><strong>Notes:</strong> Opponent swings wide or high for some reason and the character blocks in a dramatic fashion.</td>

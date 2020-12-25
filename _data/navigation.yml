@@ -9,6 +9,8 @@
       link: /tavares-commercial-freighter/
     - name: Remora Infiltration Shuttle
       link: /remora-infiltration-shuttle/
+    - name: Klingon Trade Ship Example
+      link: /klingon-trade-ship-example/
 - name: Resources
   link: /
   submenu:
