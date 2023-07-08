@@ -11,11 +11,11 @@ permalink: /making-characters/
 
 The various playable species have their own racial and cultural packages to purchase, and I’ve also provided packages for the different types of training offered by Starfleet and Civilian merchant academies.
 
-The original FASA game tracked a person’s education in the character creation process, so that has been replicated to some extent. Skill packages are taken in order, and you don’t have to take all of them if your character has a different story. Maybe she went to another type of civilian school, or dropped out of Starfleet Academy, or whatever. Players are free to just spend their points without these packages, of course. Just keep in mind that racial and cultural packages are mandatory for applicable species.
+The original FASA game tracked a person’s education in the character creation process, so that has been replicated to some extent. Skill packages are taken in order, and you don’t have to take all of them if your character has a different story. Maybe she went to another type of school, or dropped out of Starfleet Academy, or whatever. Players are free to just spend their points without these packages, of course. Just keep in mind that racial and cultural packages are mandatory for applicable species.
 
 ## We Have the Software
 
-There's a little program called for making characters with the 5th or 6th Edition of the HERO system. It's called [Hero Designer v3](https://www.herogames.com/store/product/1-hero-designer/) and you can buy it from the official HERO Games site. Our group already has it from the old days, so I'm not sure if this is better or worse than the one we have. I haven't had 25 dollars worth of curiosity yet.
+There's a little program called for making characters with the 5th or 6th Edition of the HERO system. It's called [Hero Designer](https://www.herogames.com/store/product/1-hero-designer/) and you can buy it from the official HERO Games site. Our group already has it from the old days, so I'm not sure if this is better or worse than the one we have. I haven't had 25 dollars worth of curiosity yet.
 
 I’ve made [a bunch of packages and prefabs]({{ '/assets/files/HERO_STRPG.zip' | relative_url }}) for this stuff that you can just load into a new character. Just follow the educational track of your character and then tweak things before spending the points that remain. For those who want to do things the old-school way, I’ll try to provide enough information here on the site to build a merchant character.
 

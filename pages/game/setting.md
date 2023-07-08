@@ -11,7 +11,7 @@ permalink: /setting/
 
 Another important detail is the Federation’s reaction to the Orion slave trade. After the industry became known to the UFP, the Federation Council voted unanimously to impose harsh sanctions against Orion companies, ports, and shipping interests that participate in the Green Slave trade. At the time of our game, The sanctions have just gone into effect and traders everywhere are freaking out.
 
-Even worse for the Orions, a report is published on 2/0103.13 by Captain Christopher Pike which describes the slave trade in more detail. Once this report reaches the Federation Council, the UFP officially stops trading with all Orion planets. This eventually worked out in the Federation’s favor, but not before some businesses went under.
+Even worse for the Orions, a report will be published on 2/0103.13 by Captain Christopher Pike which describes the slave trade in more detail. Once this report reaches the Federation Council, the UFP will officially stop trading with all Orion planets. This eventually worked out in the Federation’s favor, but not before some businesses went under.
 
 The end result of these events is a time of harsh change in the Triangle, as businesses try to adapt to new restrictions and lost trade. Larger companies with greater dependence upon UFP/Orion trade faced the most difficulty in making the necessary changes, and many failed completely. This created a perfect environment for small, independent traders to thrive.
 
@@ -53,7 +53,8 @@ The original series had a mostly human setting because painting someone blue eve
 
 ![Andorian Sketch from 1986]({{site.baseurl}}assets/img/pages/andorian-sketch.jpg){:.img-fluid .mx-auto .d-block}
 
-In the old days, Andorian antennae were in the back.
+In the old days, Andorian antennae were in the back. They moved to the front in the Enterprise TV series, and I like the redesign so that's where they'll be.
+
 FASA games and the Enterprise series did admirable jobs of explaining the lack of a Klingon head ridge in the original series, but we’re not going to bother. In this game, imperial Klingons have always been the only kind of Klingon. So just imagine the guys from the old show with the funny foreheads. Same uniforms, same short haircuts, same beards… just with the current bumpy forehead.
 
 ## Everybody Can’t Live Forever

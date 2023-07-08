@@ -29,7 +29,7 @@ The Tavares takes its name from a late 20th-century personality responsible for 
 ## Deckplan Details
 The original plans didn't match up properly and didn't always make sense, so I went into Photoshop and played around until I got it right.
 
-All deck plans are based upon the <strong>Standard Cargo Unit</strong>. One SCU is .5 meters on a side and 3 meters tall, for 6.75 cubic meters. This means that all decks have a ceiling of less than 3 meters, once evened out for cases where part of the map is two decks tall, like the shuttlebay.
+All deck plans are based upon the <strong>Standard Cargo Unit</strong>. One SCU is 1.5 meters on a side and 3 meters tall, for 6.75 cubic meters. This means that all decks have a ceiling of less than 3 meters to account for the thickness of the floors, and evened out for cases where part of the map is two decks tall, like the shuttlebay.
 
 Engineering has a slightly higher ceiling than a normal deck because of the shape of the ship. (Check out the cross section on the map.)
 
@@ -52,7 +52,7 @@ Most of this deck is open space for cargo storage, and the room extends upward i
 To make use of the space above the cargo transporters, an open second floor loft was installed for additional cargo. Anything that's taller than one deck would need to go into the aft portion of the bay, and would need to be loaded via the back door.
 <dl>
 	<dt>Cargo Transporters</dt>
-	<dd>If the ship is in orbit, cargo can be brought onboard via the cargo transporters. This requires cooperation from the ground, since cargo needs to be marked for transport. The crew can  easily transport items from here to the personnel transporter on Deck 3, and transponders can be used transport cargo anywhere in the ship. This is often done to move cargo to the shuttlebay when large amounts of cargo must be stored.</dd>
+	<dd>If the ship is in orbit, cargo can be brought onboard via the cargo transporters. This requires cooperation from the ground, since cargo needs to be marked for transport. The crew can  easily transport items from here to the personnel transporter on Deck 3, and transponders can be used transport cargo anywhere in the ship. This is often done to move cargo to the shuttlebay when large amounts of cargo must be stored. Never try it without the transponders, however. Transporters in this era are not as precise as the ones in the TNG era.</dd>
 	<dt>Anti-grav Lifts</dt>
 	<dd>Any trade vessel will have a number of personal anti-grav units laying around, but those are just handles that crew can use to move one crate at a time. These lifts are larger and can be used kind of like a palette jack to move larger amounts of cargo at once. They're also used as forklifts, turning up the power to lift cargo to the loft above. A crew member may ride on the lift or control it remotely with a handheld device.</dd>
 	<dt>Charging Tracks</dt>
@@ -71,7 +71,7 @@ This is an open second floor within the cargo bay, built to make use of the spac
 	<dd>The tanks on the starboard side are just for water. When full, these tanks can supply the ship with plenty of water without any need for rationing. This includes the sinks, toilets, mopping floors, whatever.</dd>
 	<dt>Septic, Treatment and Liquid/Gas Storage</dt>
 	<dd>
-		<p>These three tanks are where the fun happens. One is a septic tank, which is fun to think about Bad stuff comes down, gets processed in the next tank and the freshly cleaned water goes over to the water storage tanks. We're about fifty years before replicators are invented, so individual toilets are unable to simply make the bad stuff "go away". However, the septic tank can be emptied by transporting it out and just never rematerializing it. The resulting energy is recycled through the ship's systems. Assume that there are special transponders in the tank to help with this.</p>
+		<p>These three tanks are where the fun happens. One is a septic tank, which is where the **bad stuff** comes down, gets processed in the next tank and the freshly cleaned water goes over to the water storage tanks. We're about fifty years before replicators are invented, so individual toilets are unable to simply make the bad stuff "go away". However, the septic tank can be emptied by transporting it out and just never rematerializing it. The resulting energy is recycled through the ship's systems. Assume that there are special transponders in the tank to help with this.</p>
 		<p>The tank nearest the wall is actually an arrangement of smaller tanks which contain whatever industrial gasses or liquids that the plot requires. Coolants are a good example of this.</p>
 	</dd>
 	<dd>These areas are made to look like more machinery for the landing gear, but they're empty. Hidden access panels can be removed to store more cargo, and a thin layer of fake machinery inside will shield the empty area from casual scans.</dd>
@@ -116,8 +116,6 @@ Engineering is **really** important on a starship, so an entire deck has been de
 <dl>
 	<dt>Weapons</dt>
 	<dd>The Tavares isn't supposed to have weapons, so this section is made to look like additional sensor equipment. Fortunately for the engineer, there's plenty of room to walk around.</dd>
-	<dt>Engineering</dt>
-	<dd>Things</dd>
 	<dt>Warp Core</dt>
 	<dd>This is where the antimatter reactions happen, so it's basically a horrifying bomb in the middle of your only protection from the vacuum of space. Fortunately, dilithium crystals regulate things to prevent <strong>Bad Things</strong> from happening. From here, power is sent to the warp engines for distribution to the rest of the ship.</dd>
 	<div class="alert alert-danger" role="alert">

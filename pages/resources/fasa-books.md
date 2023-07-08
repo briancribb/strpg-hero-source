@@ -16,6 +16,6 @@ I've managed to get almost all of the FASA content on PDF. I'm providing these b
 ## The Game
 Although we will be using the HERO system, much of the content will come from the old FASA game. You really got a sense of your character's career, all the way from the academy to the current post.
 
-It still used random dice rolls, however. A point-based system will provide control for players, but will balance the various races and skills. For example, Vulcan racial modifiers in the Star Trek RPG put them way ahead of everyone else. In the HERO system, they would have to spend points for their powers and advantages.
+It still used random dice rolls, however. A point-based system can provide control for players and balance the various races and skills. For example, Vulcan racial modifiers in the Star Trek RPG put them way ahead of everyone else. In the HERO system, they would have to spend points for their powers and advantages.
 
 {% include fasa-book-list.html %}

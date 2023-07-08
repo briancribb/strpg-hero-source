@@ -13,13 +13,19 @@ Much of the information we have about trade is pulled from “Trader Captains an
 
 There’s enough detail in the source material to cover as much trade as the players want to get into. *(The game supplement even had rules for the stock market and creating a player-owned corporation!)* However, it can also be used for a bit of background information by players who don’t want to mess with the specific details of cargo sales. We’ll start with the dominant trade union in the UFP and the Triangle.
 
+## Space Money
+Money was still used in the UFP until the invention of the replicator. People buy things and run businesses, but everything is regulated to prevent corporations from getting out of hand. There's no poverty, certain things aren't commodified, and laborors re protected by powerful unions. There's no poverty inside the UFP and things for civilians are pretty good.
+
+The Triangle, however, is outside the UFP. Money is far more important there, and things can definitely go badly.
+
 ## Standard Cargo Units
 
-Trading in the FASA setting involves the **Standard Cargo Unit (SCU)**, and **Credits**. The latter is the basic science-fiction style of electronic money, and the former is based upon how FASA used to draw their deck plans. The maps used squares which were 1.5 meters on a side, and a standard deck was presumed to have a ceiling of 3 meters. So a single SCU is 1.5m x 1.5m x 3m, resulting in a volume of 6.75 cubic meters. Volume is the only real concern, since mass can be countered by hand-held antigrav handles and various other devices.
+Hauling cargo in the FASA setting involves the **Standard Cargo Unit (SCU)**. They're based upon how FASA used to draw their deck plans. The maps used squares which were 1.5 meters on a side, and a standard deck was presumed to have a ceiling of 3 meters. So a single SCU is 1.5m x 1.5m x 3m, resulting in a volume of 6.75 cubic meters. Volume is the only real concern, since mass can be countered by hand-held antigrav handles and various other devices.
 
 That being said, mass can quickly become a concern if you’re delivering cargo to a place without any of that equipment. You can’t just drop a giant cargo container on a low-tech agricultural world, and you can’t carry vehicles or machinery if your ship is built to transport bulk liquids. Some care is required when making plans.
 
-United Federation of Planets independent Traders Association (UFP/ITA)
+## United Federation of Planets Independent Traders Association (UFP/ITA)
+
 This private and independent trade association is licensed by the Starfleet Merchant Marine Command and the Federation Trade Authority to perform many contractual functions for these organizations, including regulation of pay grades for merchant spacehands in UFP space, coordination of testing and certification for interstellar merchants, etc. The organization also maintains a large number of training academies and apprentice programs, and offers placement, guidance and informational services to its millions of members across the Federation and the known galaxy.
 
 Not everyone is a member of the UFP/ITA, but the organization is large enough to have influence which rivals Orion trade families. Because of the UFP/ITA, spacehands and merchants can expect their pay grades to be honored by reputable employers.
@@ -36,13 +42,13 @@ There’s a separate table for luxury multipliers below. You’ll notice that th
 
 ## Population
 
-The last letter of the PTP (the one in parentheses) is the Population rating for the planet. This rating modifies the Base Consumption Rate for a cargo type, rather than the price. The Consumption rate is a measure of how many Standard Cargo Units (SCU) of a cargo can be sold on a planet before demand drops off.
+The last letter of the PTP (the one in parentheses) is the Population rating for the planet. This rating modifies the Base Consumption Rate for a cargo type, rather than the price. The Consumption Rate is a measure of how many Standard Cargo Units (SCU) of a cargo can be sold on a planet before demand drops off.
 
-The Consumption rate is measured from the perspective of a single trader, but if two traders were to arrive at the same place at the same time with the same cargo, it would result in much lower prices as the local area is now flooded with that cargo. (It could also result in a fight.)
+The Consumption Rate is measured from the perspective of a single trader, but if two traders were to arrive at the same place at the same time with the same cargo, it would result in much lower prices as the local area is now flooded with that cargo. (It could also result in a fight.)
 
 ## Here’s an Example
 
-Tellar has a Planetary Trade Profile of **EAAGADG/A (A)**. (You can find this information in the FASA suppliment “The Federation”.) The second letter is “A”, which is terrible, meaning that Normal Minerals and Raw Materials will be difficult to sell there. They likely have plenty of raw materials in their system and have no need to have it shipped to them. The base price of 1000 Cr would be multiplied by .25, bringing your base price per SCU down to 250 Cr. Even if you can negotiate, that’s pretty bad.
+Tellar has a Planetary Trade Profile of **EAAGADG/A (A)**. (You can find this information in the FASA suppliment “The Federation”.) The second letter is “A”, which is terrible, meaning that Normal Minerals and Raw Materials will be difficult to sell there. They likely have plenty of raw materials in their system and have no need to have such things shipped to them. The base price of 1000 Cr would be multiplied by .25, bringing your base price per SCU down to 250 Cr. Even if you can negotiate, that’s pretty bad.
 
 On the bright side, their rating for High-Technology Manufactured Goods is “G”, which is excellent for a trader. Tellar is a leader on nuclear fusion and matter/antimatter technologies, so there’s a high demand for the equipment required by those industries. The base price for those goods is 500 Cr, which when multiplied by the 1.75 rating modifier, will bring you up to 870 Cr/SCU.
 
@@ -64,7 +70,7 @@ The rest of this page is just a bunch of reference tables with information on pa
   <dt>Pay Grade Descriptions</dt>
   <dd>Details for each pay grade. Useful for matching characters up to a job.</dd>
   <dt>Jobs by UFP/ITA Category</dt>
-  <dd>The UPF/ITA has official categories for commerce jobs, which are roughly analogous to Starfleet’s militry branches. These tables list the jobs in each category along with their pay grade.</dd>
+  <dd>The UPF/ITA has official categories for commerce jobs, which are roughly analogous to Starfleet’s military branches. These tables list the jobs in each category along with their pay grade.</dd>
 </dl>
 
 {% include trade-pay-rates.html %}
