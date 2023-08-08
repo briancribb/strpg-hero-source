@@ -21,6 +21,11 @@ There’s a lot to go over about the Triangle, but the simple description is tha
 
 The Triangle was relatively quiet place until the Klingons and the UFP dragged a war through it. Now the major governments are looking a little closer, and it makes the locals a bit nervous.
 
+## Money
+At this point in Star Trek history, the replicator hasn't been invented and money is still used. Within the UFP it's only used for non-essential things, because things necessary for a dignified life aren't commodified. Federation planets provide the essentials to everyone, and colonies are supplied with whatever they need to build and grow.
+
+The Triangle, however, is full of capitalism and rugged individualism. Resources are sparse and you can absolutely starve if you don't have enough credits to cover your expenses. This can cause a culture shock for Federation citizens who decide to brave the Triangle instead of living in a local colony.
+
 ## The Characters
 
 Our protagonists are agents of Starfleet Intelligence, tasked with establishing a covert presence in the Triangle. Whatever the players decide about their skills, they are Starfleet personnel who work undercover as civilian traders.
