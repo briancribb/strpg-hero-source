@@ -50,6 +50,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll_picture_tag
+  - jekyll-paginate-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
