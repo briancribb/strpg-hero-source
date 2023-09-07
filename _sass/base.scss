@@ -21,9 +21,16 @@ body {
 	flex-shrink: 0;
 }
 
+.navbar .dropdown-toggle {
+	color:#fff;
+}
 
 pre.lineno {
 	margin-right: 0.5rem;
+}
+
+.bg-info {
+	background-color: #CAEDF5!important;
 }
 
 .bg-black {
@@ -34,10 +41,6 @@ pre.lineno {
 }
 .masthead-homelink, .masthead-homelink:hover {
 	color: #bbb;
-	text-decoration: none;
-}
-
-.navbar a {
 	text-decoration: none;
 }
 
@@ -73,6 +76,28 @@ dd {
 		margin-bottom:0;
 	}
 }
+
+
+figure {
+	display: table;
+	figcaption {
+		display: table-caption;
+		caption-side: bottom;
+		font-size: .85rem;
+		padding: .6rem 1rem .7rem;
+
+		border-radius: 1rem;
+		border: 1px solid #3281b8;
+		background: $light;
+		&:not(.border-full) {
+			border-radius: 0 0 1rem 1rem;
+			border-top: none;
+		}
+	}
+}
+
+
+
 
 @include media-breakpoint-up(sm) {
 	.book-list-item img {

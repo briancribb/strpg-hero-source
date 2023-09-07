@@ -1,52 +1,56 @@
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
-
-@import "bootstrap-4.5.3/functions";
-
-//@import "bootstrap-4.5.3/variables";
-@import "partials/custom-variables";
+@import "../../../_vendor/bootstrap-5.3.1/scss/mixins/banner";
+@include bsBanner("");
 
 
-@import "bootstrap-4.5.3/mixins";
-@import "bootstrap-4.5.3/root";
-@import "bootstrap-4.5.3/reboot";
-@import "bootstrap-4.5.3/type";
-@import "bootstrap-4.5.3/images";
-@import "bootstrap-4.5.3/code";
-@import "bootstrap-4.5.3/grid";
-@import "bootstrap-4.5.3/tables";
-@import "bootstrap-4.5.3/forms";
-@import "bootstrap-4.5.3/buttons";
-@import "bootstrap-4.5.3/transitions";
-@import "bootstrap-4.5.3/dropdown";
-@import "bootstrap-4.5.3/button-group";
-@import "bootstrap-4.5.3/input-group";
-@import "bootstrap-4.5.3/custom-forms";
-@import "bootstrap-4.5.3/nav";
+// scss-docs-start import-stack
+// Configuration
+@import "../../../_vendor/bootstrap-5.3.1/scss/functions";
+//@import "../../../_vendor/bootstrap-5.3.1/scss/variables";
+@import "partials/variables-custom";
+@import "partials/variables-theme";
 
-@import "bootstrap-4.5.3/navbar";
-//@import "partials/navbar"
 
-@import "bootstrap-4.5.3/card";
-@import "bootstrap-4.5.3/breadcrumb";
-@import "bootstrap-4.5.3/pagination";
-@import "bootstrap-4.5.3/badge";
-@import "bootstrap-4.5.3/jumbotron";
-@import "bootstrap-4.5.3/alert";
-@import "bootstrap-4.5.3/progress";
-@import "bootstrap-4.5.3/media";
-@import "bootstrap-4.5.3/list-group";
-@import "bootstrap-4.5.3/close";
-@import "bootstrap-4.5.3/toasts";
-@import "bootstrap-4.5.3/modal";
-@import "bootstrap-4.5.3/tooltip";
-@import "bootstrap-4.5.3/popover";
-@import "bootstrap-4.5.3/carousel";
-@import "bootstrap-4.5.3/spinners";
-@import "bootstrap-4.5.3/utilities";
-@import "bootstrap-4.5.3/print";
 
+@import "../../../_vendor/bootstrap-5.3.1/scss/maps";
+@import "../../../_vendor/bootstrap-5.3.1/scss/mixins";
+@import "../../../_vendor/bootstrap-5.3.1/scss/utilities";
+
+// Layout & components
+@import "../../../_vendor/bootstrap-5.3.1/scss/root";
+@import "../../../_vendor/bootstrap-5.3.1/scss/reboot";
+@import "../../../_vendor/bootstrap-5.3.1/scss/type";
+@import "../../../_vendor/bootstrap-5.3.1/scss/images";
+@import "../../../_vendor/bootstrap-5.3.1/scss/containers";
+@import "../../../_vendor/bootstrap-5.3.1/scss/grid";
+@import "../../../_vendor/bootstrap-5.3.1/scss/tables";
+@import "../../../_vendor/bootstrap-5.3.1/scss/forms";
+@import "../../../_vendor/bootstrap-5.3.1/scss/buttons";
+@import "../../../_vendor/bootstrap-5.3.1/scss/transitions";
+@import "../../../_vendor/bootstrap-5.3.1/scss/dropdown";
+@import "../../../_vendor/bootstrap-5.3.1/scss/button-group";
+@import "../../../_vendor/bootstrap-5.3.1/scss/nav";
+@import "../../../_vendor/bootstrap-5.3.1/scss/navbar";
+@import "../../../_vendor/bootstrap-5.3.1/scss/card";
+@import "../../../_vendor/bootstrap-5.3.1/scss/accordion";
+@import "../../../_vendor/bootstrap-5.3.1/scss/breadcrumb";
+@import "../../../_vendor/bootstrap-5.3.1/scss/pagination";
+@import "../../../_vendor/bootstrap-5.3.1/scss/badge";
+@import "../../../_vendor/bootstrap-5.3.1/scss/alert";
+@import "../../../_vendor/bootstrap-5.3.1/scss/progress";
+@import "../../../_vendor/bootstrap-5.3.1/scss/list-group";
+@import "../../../_vendor/bootstrap-5.3.1/scss/close";
+//@import "../../../_vendor/bootstrap-5.3.1/scss/toasts";
+@import "../../../_vendor/bootstrap-5.3.1/scss/modal";
+@import "../../../_vendor/bootstrap-5.3.1/scss/tooltip";
+//@import "../../../_vendor/bootstrap-5.3.1/scss/popover";
+@import "../../../_vendor/bootstrap-5.3.1/scss/carousel";
+@import "../../../_vendor/bootstrap-5.3.1/scss/spinners";
+//@import "../../../_vendor/bootstrap-5.3.1/scss/offcanvas";
+@import "../../../_vendor/bootstrap-5.3.1/scss/placeholders";
+
+// Helpers
+@import "../../../_vendor/bootstrap-5.3.1/scss/helpers";
+
+// Utilities
+@import "../../../_vendor/bootstrap-5.3.1/scss/utilities/api";
+// scss-docs-end import-stack

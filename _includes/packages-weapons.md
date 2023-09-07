@@ -1,5 +1,5 @@
 <div class="card mb-3" data-toggle="collapse" href="#lasers" aria-controls="lasers" aria-expanded="false" role="button">
-	<div class="card-header h4 font-weight-normal bg-secondary"><span class="float-left">Lasers</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
+	<div class="card-header d-flex h4 font-weight-normal bg-secondary"><span class="w-100">Lasers</span><i class="fa fa-chevron-right flex-shrink-1 pt-1 trans-all-short"></i></div>
 </div>
 <div id="lasers" class="collapse">
 	<p>Lasers are the most common weapon in the Triangle at the time of our campaign, which starts two years after the end of the Four Years War. Their power packs are interchangeable between similar models, but pistols and rifles use different sizes.</p>
@@ -35,7 +35,7 @@
 </div>
 
 <div class="card mb-3" data-toggle="collapse" href="#phasers" aria-controls="phasers" aria-expanded="false" role="button">
-	<div class="card-header h4 font-weight-normal bg-primary"><span class="float-left">Phasers</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
+	<div class="card-header d-flex h4 font-weight-normal bg-primary"><span class="w-100">Phasers</span><i class="fa fa-chevron-right flex-shrink-1 pt-1 trans-all-short"></i></div>
 </div>
 <div id="phasers" class="collapse">
 	<p>Phasers are more advanced than lasers, sporting lots of nifty settings. Because they're relatively new at the time of our campaign, they are primarily carried by Starfleet personnel. Black market knock-offs are available in the Triangle, but they're expensive and not quite as good as the official Starfleet model. <em>(For game purposes, knock-off hand phasers won't have the Disintigrate setting and the Stun setting will be one Damage Class lower.)</em></p>
@@ -122,7 +122,7 @@
 </div>
 
 <div class="card mb-3" data-toggle="collapse" href="#disruptors" aria-controls="disruptors" aria-expanded="false" role="button">
-	<div class="card-header h4 font-weight-normal bg-secondary"><span class="float-left">Disruptors</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
+	<div class="card-header d-flex h4 font-weight-normal bg-secondary"><span class="w-100">Disruptors</span><i class="fa fa-chevron-right flex-shrink-1 pt-1 trans-all-short"></i></div>
 </div>
 <div id="disruptors" class="collapse">
 	<p>Next to lasers, The Klingon <strong>Mark 1 Sonic Hand Disruptor</strong> is the most common energy weapon in the Triangle. It's the primary weapon that Klingons sell to other people, keeping the more advanced Mark 2 mostly to themselves. The weapon causes vibration and heat in the target, which could break or melt non-living targets depending upon their construction.</p>
@@ -187,7 +187,7 @@
 
 
 <div class="card mb-3" data-toggle="collapse" href="#melee-weapons" aria-controls="melee-weapons" aria-expanded="false" role="button">
-	<div class="card-header h4 font-weight-normal bg-primary"><span class="float-left">Melee Weapons</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
+	<div class="card-header d-flex h4 font-weight-normal bg-primary"><span class="w-100">Melee Weapons</span><i class="fa fa-chevron-right flex-shrink-1 pt-1 trans-all-short"></i></div>
 </div>
 <div id="melee-weapons" class="collapse">
 	<p>Although there are lots of designs for weapons from different cultures, they don't make much difference where game mechanics are concerned. A Klingon <em>d'k tahg</em> is just a dagger for game purposes, and the <em>mek'leth</em> is essentially a short sword. The exception is the bat'leth.</p>

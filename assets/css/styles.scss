@@ -6,7 +6,7 @@
 
 @import "syntax-highlight";
 
-// Local site variables.
+// Local site variables. First one for image links on the 404 page.
 $baseurl: "{{ site.baseurl }}";
 
 @import "partials/trans";

@@ -1,5 +1,5 @@
 <div class="card mb-3" data-toggle="collapse" href="#startrek-hth" aria-controls="startrek-hth" aria-expanded="false" role="button">
-	<div class="card-header h4 font-weight-normal bg-secondary"><span class="float-left">Star Trek Hand-to-Hand</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
+	<div class="card-header d-flex h4 font-weight-normal bg-secondary"><span class="w-100">Star Trek Hand-to-Hand</span><i class="fa fa-chevron-right flex-shrink-1 pt-1 trans-all-short"></i></div>
 </div>
 <div id="startrek-hth" class="collapse">
 	<p>This fighting styles is designed to resemble the 1960's television show. It's meant to add flavor to the setting, and could just as easily be named "Kirk-Fu" or "Shatner Do".</p>
@@ -33,7 +33,7 @@
 
 
 <div class="card mb-3" data-toggle="collapse" href="#batleth-art" aria-controls="batleth-art" aria-expanded="false" role="button">
-	<div class="card-header h4 font-weight-normal bg-primary"><span class="float-left">Bat'leth Combat Art</span><i class="fa fa-chevron-right float-right trans-all-short"></i></div>
+	<div class="card-header d-flex h4 font-weight-normal bg-primary"><span class="w-100">Bat'leth Combat Art</span><i class="fa fa-chevron-right flex-shrink-1 pt-1 trans-all-short"></i></div>
 </div>
 <div id="batleth-art" class="collapse">
 	<p>This fighting style requires a bat'leth. These weapons didn't show up until <em>Star Trek: the Next Generation</em> but they're cool and everybody likes them so we needed this package.</p>
