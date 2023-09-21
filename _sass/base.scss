@@ -44,6 +44,9 @@ pre.lineno {
 	text-decoration: none;
 }
 
+.no-child-pointers * {
+	pointer-events:none;
+}
 
 // Turning the chevron around when a card toggle opens its content.
 div.card[aria-expanded="true"] .card-header .fa-chevron-right {
@@ -76,7 +79,9 @@ dd {
 		margin-bottom:0;
 	}
 }
-
+.toggle-section {
+	display: none;
+}
 
 figure {
 	display: table;
