@@ -1,5 +1,3 @@
-
-
 let STRPG = (function(){
 
 	function init() {
