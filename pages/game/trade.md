@@ -1,13 +1,14 @@
 ---
+layout: base.njk
 title: Trade
-permalink: /trade/
+permalink: "/trade/"
 ---
 
-# {{ page.title }}
+# {{ title }}
 
 <p class="lead">Since the story for for this game revolves around trade, we should go over the way that is done in the FASA Star Trek setting. This is mostly for role-playing purposes, but players might enjoy using some of this information to plan out their story.</p>
 
-{% picture assets/img/pages/atlas-cargo-ad.jpg alt="Atlas Cargo Advertisement" class="img-fluid d-block mx-auto" %}
+<img src="../../img/pages/atlas-cargo-ad.jpg" alt="Atlas Cargo Advertisement" />
 
 Much of the information we have about trade is pulled from “Trader Captains and Merchant Princes”, a game supplement which covered civilian traders in a Star Trek setting. It covers lots of possibilities, from merchant academy graduates to criminals to retired Starfleet personnel who wish to start a new career. Rather than make you read all of that, I’ll cover the basics here.
 
@@ -52,7 +53,7 @@ Tellar has a Planetary Trade Profile of **EAAGADG/A (A)**. (You can find this in
 
 On the bright side, their rating for High-Technology Manufactured Goods is “G”, which is excellent for a trader. Tellar is a leader on nuclear fusion and matter/antimatter technologies, so there’s a high demand for the equipment required by those industries. The base price for those goods is 500 Cr, which when multiplied by the 1.75 rating modifier, will bring you up to 870 Cr/SCU.
 
-{% include trade-ptp.html %}
+{% include "parts/trade-ptp.njk" %}
 
 ## Pay Grades
 
@@ -73,13 +74,6 @@ The rest of this page is just a bunch of reference tables with information on pa
   <dd>The UPF/ITA has official categories for commerce jobs, which are roughly analogous to Starfleet’s military branches. These tables list the jobs in each category along with their pay grade.</dd>
 </dl>
 
-{% include trade-pay-rates.html %}
-{% include trade-pay-grades.html %}
-{% include trade-pay-grade-jobs.html %}
-
-
-
-
-
-
-
+{% include "parts/trade-pay-rates.njk" %}
+{% include "parts/trade-pay-grades.njk" %}
+{% include "parts/trade-pay-grade-jobs.njk" %}

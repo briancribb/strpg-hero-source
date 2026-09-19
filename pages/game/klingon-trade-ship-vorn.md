@@ -1,15 +1,18 @@
 ---
+layout: base.njk
 title: Klingon Trade Ship Vorn
-permalink: /klingon-trade-ship-vorn/
+permalink: "/klingon-trade-ship-vorn/"
 ---
 
-# {{ page.title }}
+# {{ title }}
 
 <p class="lead font-italic">*Edit: The map and information for the ship is directly from the FASA sourcebooks, and is written from the perspective of the Star Trek films. Our campaign takes place before the original series, in the year that this class was introduced. I’ll most likely adjust that service date by a few years so these vessels can be more common at the time of our story.<br>-BC*</p>
 
-{% picture assets/img/pages/ship_w2warpshuttle.jpg alt="Klingon W-2 Warpshuttle" class="img-fluid d-block mx-auto" --link {{site.baseurl}}assets/files/W2_Warpshuttle_Plans.pdf %}
+<a href="../../files/W2_Warpshuttle_Plans.pdf">
+<img src="../../img/pages/ship_w2warpshuttle.jpg" alt="Klingon W-2 Warpshuttle" />
+</a>
 
-The W-2 Class war-shuttle is used mainly for transporting VIPs within Klingon space, on such interstellar missions as command personnel transfers or espionage insertion missions. You can see the [specifications and deck plans in this PDF]({{site.baseurl}}assets/files/W2_Warpshuttle_Plans.pdf).
+The W-2 Class war-shuttle is used mainly for transporting VIPs within Klingon space, on such interstellar missions as command personnel transfers or espionage insertion missions. You can see the [specifications and deck plans in this PDF](../../files/W2_Warpshuttle_Plans.pdf).
 
 ## Story Concept for the Trade Ship Vorn
 
@@ -26,28 +29,22 @@ Attacking by surprise allowed them to overpower a larger ship and take over the 
 
 One of the Orions volunteered to join them, claiming that she could operate the helm and serve as their cargomaster. She explained that had won the cargo by right of combat, and since the owner of her contract was now dead, they could take her as part of that cargo. The Klingons had no interest in taking on a slave, so she persuaded them to free her and then hire her as part of the crew. It was difficult to build trust at first, but the new hire soon became a part of the ship's family. She skims a little, sure, but only after the business turns a profit. They're definitely better off with her around.
 
-
 ## The Trade Ship Vorn and Her Crew
 
-<div class="d-flex flex-column flex-sm-row flex-column-reverse">
-	<div class="flex-fill">
-		<img class="mx-auto d-block pr-sm-2 pt-3 pt-sm-1" alt="Klingon W-2 Warpshuttle in Space" src="{{site.baseurl}}assets/img/pages/w-2-warpshuttle-in-space.jpg">
+<div class="row">
+	<div class="col-12 col-sm-4 order-2 order-sm-1">
+		<img class="mx-auto" alt="Klingon W-2 Warpshuttle in Space" src="../../img/pages/w-2-warpshuttle-in-space.jpg">
 	</div>
-	<div class="flex-fill">
+	<div class="col-12 col-sm-8 order-1 order-sm-2">
 		<p>Everyone on the Vorn was a problem in some way, which is why they were stuck serving VIPs on a warpshuttle deep inside friendly territory during a war.</p>
 		<ul>
-			<li><a href="{{site.baseurl}}assets/files/Gurahn.pdf" title="Character sheet for Gurahn">Gurahn</a> - Captain of the Vorn. He's from a minor family line, and was hoping to advance his career by chatting up the VIPs. It didn't work out.</li>
-			<li><a href="{{site.baseurl}}assets/files/Kentu.pdf" title="Character sheet for Kentu">Kentu</a> - Engineer. Small and thin, he only survived Klingon society because of his technical skills. He hates almost everyone except for the Captain.</li>
-			<li><a href="{{site.baseurl}}assets/files/Kebek.pdf" title="Character sheet for Kebek">Kebek</a> - Security Chief and master of the bat'leth. Also a compulsive gambler.</li>
-			<li><a href="{{site.baseurl}}assets/files/Serana.pdf" title="Character sheet for Serana">Serana</a> - Cargomaster and Helm. Orion and former slave, now serving on the Vorn and helping her Klingon crewmates start their business.</li>
+			<li><a href="../../files/Gurahn.pdf" title="Character sheet for Gurahn">Gurahn</a> - Captain of the Vorn. He's from a minor family line, and was hoping to advance his career by chatting up the VIPs. It didn't work out.</li>
+			<li><a href="../../files/Kentu.pdf" title="Character sheet for Kentu">Kentu</a> - Engineer. Small and thin, he only survived Klingon society because of his technical skills. He hates almost everyone except for the Captain.</li>
+			<li><a href="../../files/Kebek.pdf" title="Character sheet for Kebek">Kebek</a> - Security Chief and master of the bat'leth. Also a compulsive gambler.</li>
+			<li><a href="../../files/Serana.pdf" title="Character sheet for Serana">Serana</a> - Cargomaster and Helm. Orion and former slave, now serving on the Vorn and helping her Klingon crewmates start their business.</li>
 		</ul>
 		<h3>More About the Map</h3>
 		<p>Converting their warpshuttle to a trade ship required making some changes. The crew now stays in the VIP quarters on the port side of the ship, which is the right side of the provided map. Passengers are given the quarters on the starboard side. With only one VIP room left, most passengers will need to use the common heads in the hallway.</p>
 		<p>The bunk room has now been cleared and converted into more cargo space, with an additional cargo door added for direct access.</p>
 	</div>
 </div>
-
-
-
-
-

@@ -1,12 +1,13 @@
 ---
+layout: base.njk
 title: Martial Arts
-permalink: /martial-arts/
+permalink: "/martial-arts/"
 ---
 
-# {{ page.title }}
+# {{ title }}
 
 <p class="lead">Fighting in this will have a 1960's flavor. Game mechanics will be the same, but imagine actors who were taught to fight by a stunt man five minutes ago.</p>
 
-{% picture assets/img/pages/kirk-fights-andorian.jpg alt="Captain Kirk fighting an Andorian" class="img-fluid d-block mx-auto" %}
+<img src="../../img/pages/kirk-fights-andorian.jpg" alt="Captain Kirk fighting an Andorian" />
 
-{% include packages-ma.md %}
+{% include "parts/packages-ma.njk" %}

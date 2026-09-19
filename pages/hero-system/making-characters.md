@@ -1,13 +1,14 @@
 ---
+layout: base.njk
 title: Making Characters
-permalink: /making-characters/
+permalink: "/making-characters/"
 ---
 
-# {{ page.title }}
+# {{ title }}
 
 <p class="lead">For the most part, our characters will be the same as those in any other HERO System 5th Edition game, aside from the setting. Characters have <strong>75 base points</strong> with up to <strong>75 points in disadvantages</strong>, for a total of 150. The maximum points for a single disadvantage is 25 points. This comes from the <strong>Character Types Guidelines Table</strong> on page 28 of the 5th Edition Hero System book.</p>
 
-{% picture assets/img/pages/space-lanes-66.jpg alt="Drawing of Jaan Holona with Cargomaster Kinnda" class="img-fluid d-block mx-auto" %}
+<img src="../../img/pages/space-lanes-66.jpg" alt="Drawing of Jaan Holona with Cargomaster Kinnda" />
 
 The various playable species have their own racial and cultural packages to purchase, and I’ve also provided packages for the different types of training offered by Starfleet and Civilian merchant academies.
 
@@ -17,7 +18,7 @@ The original FASA game tracked a person’s education in the character creation 
 
 There's a little program called for making characters with the 5th or 6th Edition of the HERO system. It's called [Hero Designer](https://www.herogames.com/store/product/1-hero-designer/) and you can buy it from the official HERO Games site. Our group already has it from the old days, so I'm not sure if this is better or worse than the one we have. I haven't had 25 dollars worth of curiosity yet.
 
-I’ve made [a bunch of packages and prefabs]({{ '/assets/files/HERO_STRPG.zip' | relative_url }}) for this stuff that you can just load into a new character. Just follow the educational track of your character and then tweak things before spending the points that remain. For those who want to do things the old-school way, I’ll try to provide enough information here on the site to build a merchant character.
+I’ve made [a bunch of packages and prefabs]('/files/HERO_STRPG.zip') for this stuff that you can just load into a new character. Just follow the educational track of your character and then tweak things before spending the points that remain. For those who want to do things the old-school way, I’ll try to provide enough information here on the site to build a merchant character.
 
 ## Don’t Buy It Twice
 
@@ -25,7 +26,7 @@ Depending upon the packages you take, there might be some repetition. Just skip 
 
 ## SysOp is Split
 
-Systems Operation is a catch-all sort of skill in the HERO game system, but for this setting it represents many skills. A character will need different SysOp skill for the transporters than for the medical equipment in sickbay. These differences are shown in the <a href="{{ '/skills/' | relative_url }}">skill packages</a> I’ve put together. As always, similar skills can compliment each other wherever this would make sense.
+Systems Operation is a catch-all sort of skill in the HERO game system, but for this setting it represents many skills. A character will need different SysOp skill for the transporters than for the medical equipment in sickbay. These differences are shown in the <a href="/skills/">skill packages</a> I’ve put together. As always, similar skills can compliment each other wherever this would make sense.
 
 ## Technical Skills have a Broader Scope
 
@@ -47,7 +48,7 @@ A well-rounded civilian engineer from a merchant academy just gets these three b
 
 <p class="lead">Some Perks are used for role-playing purposes, so they won’t cost any points. The rank of <em>Captain</em>, for example, shouldn’t cost one player points just for taking the position. Here’s a list the things that cost points and the things that don’t:</p>
 
-{% picture assets/img/pages/space-lanes-68.jpg alt="A hand extended to Cargomaster Kinnda, with another crewmember behind him." class="img-fluid d-block mx-auto" %}
+<img src="../../img/pages/space-lanes-68.jpg" alt="A hand extended to Cargomaster Kinnda, with another crewmember behind him." />
 
 ### Perks That Cost.
 
@@ -75,7 +76,7 @@ A well-rounded civilian engineer from a merchant academy just gets these three b
 
 ## Example Character
 
-I'm going to make a character with Hero Designer so we can test the various prefabs and packages that I provided in the [ZIP file]({{ '/assets/files/HERO_STRPG.zip' | relative_url }}). Everything is in there, so I'll be referencing that folder structure as we go. I recommend saving all of your characters in the <code>characters</code> folder so it will be easier to navigate to the others when you're loading prefabs and whatnot.
+I'm going to make a character with Hero Designer so we can test the various prefabs and packages that I provided in the [ZIP file]("/files/HERO_STRPG.zip"). Everything is in there, so I'll be referencing that folder structure as we go. I recommend saving all of your characters in the <code>characters</code> folder so it will be easier to navigate to the others when you're loading prefabs and whatnot.
 
 Hopefully these notes will help you whether you’re using the software or just going old school with paper and pencil. Just keep in mind that these packages are meant to guide you, not restrict you. Starfleet officers will have lots in common, but there should be room to play with the numbers a bit.
 

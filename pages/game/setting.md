@@ -1,13 +1,14 @@
 ---
+layout: base.njk
 title: Setting
-permalink: /setting/
+permalink: "/setting/"
 ---
 
-# {{ page.title }}
+# {{ title }}
 
 <p class="lead">Our story begins in the area of space known as the Triangle on Stardate 2/0003.01, about a year-and-a-half after the Four Years War against the Klingons ended on Stardate 1/9806.13. The war spilled over into the Triangle, so every character will have some kind of connection to it. For reference, the five-year mission from the original TV series began on Stardate 2/0704.00, when Kirk took command of the Enterprise. For an explanation of stardates, see the footer on my <a title="Star Trek Timeline" href="http://briancribb.github.io/strpg-timeline/tl-react/">Star Trek Timeline</a>.</p>
 
-{% picture assets/img/pages/orion-ship-orbit_dana-knutson.jpg alt="Orion Class V Blockade Runner in Orbit. Drawing by Dana Knutson" class="img-fluid d-block mx-auto" %}
+<img src="../../img/pages/orion-ship-orbit_dana-knutson.jpg" alt="Orion Class V Blockade Runner in Orbit. Drawing by Dana Knutson" />
 
 Another important detail is the Federation’s reaction to the Orion slave trade. After the industry became known to the UFP, the Federation Council voted unanimously to impose harsh sanctions against Orion companies, ports, and shipping interests that participate in the Green Slave trade. At the time of our game, The sanctions have just gone into effect and traders everywhere are freaking out.
 
@@ -40,13 +41,13 @@ SI connections in the Triangle are sparse, so the main characters are tasked wit
 
 Phasers and photon torpedoes were only deployed on Starfleet vessels in the last year of the war, so they’re just over two years old for practical purposes. They’re rare in the Triangle, and possession of them signifies a connection to the UFP. (Keep in mind that this could be a criminal connection in the case of gun runners.)
 
-{% picture assets/img/pages/klingon-firing-disruptor-pistol.jpg alt="Klingon firing a disruptor pistol" class="img-fluid d-block mx-auto" %}
+<img src="../../img/pages/klingon-firing-disruptor-pistol.jpg" alt="Klingon firing a disruptor pistol" />
 
 The most common weapon in the Triangle is the laser, but Klingon disruptors can also be found. Civilian models are usually a generation behind whatever the military is using at the time. Most civilian ships are still using lasers and accelerator cannons for defense.
 
 ## Supplies and Food
 
-{% picture assets/img/pages/riley-space-food.jpg alt="Ensign Riley with some space food" class="img-fluid d-block mx-auto" %}
+<img src="../../img/pages/riley-space-food.jpg" alt="Ensign Riley with some space food" />
 
 Meals on most space vessels consist of reconstituted “space food” that we’ve seen on the original TV show and in other shows from the 1960’s. Food synthesizers cut small color-coded cubes from large cargo blocks of food material to match the nutritional needs of a given crew member.
 
@@ -56,7 +57,7 @@ Although it can provide nutrition for any race, it’s generally considered to b
 
 The original series had a mostly human setting because painting someone blue every week just wasn’t practical with their budget. However, in our RPG those limitations don’t apply. This means that Andorians and Tellarites will be much more common than they were in the shows, and even more common than they are in the source materials for the FASA RPG. Vulcans will be less common since they live longer and reproduce much slower than the others.
 
-![Andorian Sketch from 1986]({{site.baseurl}}assets/img/pages/andorian-sketch.jpg){:.img-fluid .mx-auto .d-block}
+<img src="../../img/pages/andorian-sketch.jpg" alt="Andorian Sketch from 1986" />
 
 In the old days, Andorian antennae were in the back. They moved to the front in the Enterprise TV series, and I like the redesign so that's where they'll be.
 

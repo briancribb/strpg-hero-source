@@ -1,0 +1,38 @@
+- text: Game
+  url: /
+  submenu:
+    - text: Setting
+      url: /setting/
+    - text: Trade
+      url: /trade/
+    - text: Tavares Commercial Freighter
+      url: /tavares-commercial-freighter/
+    - text: Klingon Trade Ship Vorn
+      url: /klingon-trade-ship-vorn/
+    - text: Remora Infiltration Shuttle
+      url: /remora-infiltration-shuttle/
+- text: Resources
+  url: /
+  submenu:
+    - text: FASA Books
+      url: /fasa-books/
+    - text: Timeline
+      url: http://briancribb.github.io/strpg-timeline/tl-react/
+      target: _blank
+- text: HERO System
+  url: /
+  submenu:
+    - text: Making Characters
+      url: /making-characters/
+    - text: Skills
+      url: /skills/
+    - text: Racial Packages
+      url: /racial-packages/
+    - text: Starfleet Packages
+      url: /starfleet-packages/
+    - text: Merchant Packages
+      url: /merchant-packeges/
+    - text: Weapons
+      url: /weapons/
+    - text: Martial Arts
+      url: /martial-arts/

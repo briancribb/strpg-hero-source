@@ -1,0 +1,39 @@
+.content-front {
+  z-index: 4;
+}
+
+img.shuttle {
+  margin:1rem auto;
+}
+
+.starfield {
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  min-height:100%;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+}
+
+.stars-large  {
+  background-image: url(/img/layout/stars_large.png);
+}
+.stars-medium {
+  background-image: url(/img/layout/stars_medium.png);
+}
+.stars-small  {
+  background-image: url(/img/layout/stars_small.png);
+}
+
+
+
+@include media-breakpoint-down(sm) {
+  .error-container {
+    margin:10px 0;
+  }
+  img.ship {
+    margin:20px auto;
+    max-width: 100px;
+  }
+}

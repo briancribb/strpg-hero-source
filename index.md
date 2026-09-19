@@ -1,8 +1,5 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: default
+layout: base.njk
 myNumber: 5
 ---
 
@@ -19,7 +16,7 @@ My personal head canon was that the Temporal War described in the Enterprise ser
 
 But I digress. This game concept will use the FASA setting. Wherever the television shows conflict with FASA, I will most likely side with FASA. I’m going to post some primer information on this site so you’ll know where things land. I’ll also be posting som HERO system stats for various characters and things.
 
-{% picture assets/img/pages/enterprise-front-sketch.jpg alt="Ink drawing of the USS Enterprise" class="img-fluid d-block mx-auto" %}
+<img src="img/pages/enterprise-front-sketch.jpg" alt="Ink drawing of the USS Enterprise" class="img-fluid d-block mx-auto" />
 
 ## How much HERO vs. How Much FASA
 

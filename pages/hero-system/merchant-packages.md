@@ -1,13 +1,14 @@
 ---
+layout: base.njk
 title: Merchant Packages
-permalink: /merchant-packeges/
+permalink: "/merchant-packeges/"
 ---
 
-# {{ page.title }}
+# {{ title }}
 
 <p class="lead">There are three “lanes of entry” into the merchant profession: academies, apprenticeships and on-the-job training.</p>
 
-{% picture assets/img/pages/trade-ship.jpg alt="Trade Ship" class="img-fluid d-block mx-auto" %}
+<img src="../../img/pages/trade-ship.jpg" alt="Trade Ship" />
 
 Merchant academies are the most respected way to get into the trading business, but they’re far from the only way. Some people are accepted into apprenticeships, while others simply jump onboard and work their way up from the bottom. Apprenticeships are the fastest, taking just three years by teaching only the essentials.
 
@@ -37,11 +38,10 @@ The Merchant’s Ticket perk is included with the basic package for academies an
 
 Academies have a two-year general curriculum, followed by a two-year specialty program. There are numerous academies throughout the UFP, and more than enough accredited independent academies in the Triangle.
 
-{% include packages-merchant-academy.html %}
+{% include "parts/packages-merchant-academy.njk" %}
 
 ## Merchant Apprenticeship Packages
 
 An apprenticeship lasts for three solar years. Apprentices are paired with trained, experienced UFP/ITA traders in active merchant work across the known galaxy. During the first 18 months, the apprentice is well-grounded in the general skills and studies necessary for every interstellar merchant. After that, they are evaluated before continuing with specialty training.
 
-{% include packages-merchant-apprentice.html%}
-
+{% include "parts/packages-merchant-apprentice.njk"%}

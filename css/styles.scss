@@ -1,0 +1,89 @@
+@import 'local_bootstrap';
+@import 'animations';
+@import 'custom404';
+
+html {
+	font-size: 18px;
+}
+.container {
+	max-width: 800px;
+}
+.navbar {
+	.navbar-brand, .dropdown-toggle {
+		color:#fff;
+	}
+}
+th {
+		background: none!important;
+}
+img {
+	display:block;
+	max-width: 100%;
+	height: auto;
+	margin: auto auto 1rem;
+}
+pre.lineno {
+	margin-right: 0.5rem;
+}
+
+.bg-info {
+	background-color: #CAEDF5!important;
+}
+.bg-black {
+	background-color: #000;
+}
+.bg-space {
+	background: #000000 url(/img/layout/bg_stars.jpg);
+}
+.masthead-homelink, .masthead-homelink:hover {
+	color: #bbb;
+	text-decoration: none;
+}
+
+.no-child-pointers * {
+	pointer-events:none;
+}
+
+// Definition lists
+dd {
+	margin-bottom:1.25rem;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	& > *:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.book-list-item {
+	p:last-child, ol:last-child, li:last-child {
+		margin-bottom:0;
+	}
+}
+
+// Turning the chevron around when a card toggle opens its content.
+div.card[aria-expanded="true"] .card-header .fa-chevron-right {
+	margin-top: .125rem;
+	transform: rotate(90deg);
+}
+
+figure {
+	display: table;
+	img {
+		margin-bottom: 0px;
+	}
+	figcaption {
+		display: table-caption;
+		caption-side: bottom;
+		font-size: .85rem;
+		padding: .6rem 1rem .7rem;
+
+		border-radius: 1rem;
+		border: 1px solid #3281b8;
+		background: $light;
+		&:not(.border-full) {
+			border-radius: 0 0 1rem 1rem;
+			border-top: none;
+		}
+	}
+}

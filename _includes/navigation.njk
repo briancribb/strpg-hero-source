@@ -1,0 +1,31 @@
+
+<div class="navbar-wrap bg-primary">
+<div class="container">
+  <nav class="navbar navbar-expand-md">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">STRPG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-lg-0">
+        {% for item in navigation %}
+          <li class="nav-item{% if item.submenu %} dropdown{% endif %}">
+            <a class="nav-link{% if item.submenu %} dropdown-toggle{% endif %}" href="{{ item.url }}"{% if item.submenu %} role="button" data-bs-toggle="dropdown" aria-expanded="false"{% endif %}>
+              {{item.text}}
+            </a>
+            {% if item.submenu %}
+              <ul class="dropdown-menu">
+                {% for sublink in item.submenu %}
+                  <li><a class="dropdown-item" href="{{ sublink.url }}">{{ sublink.text }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
+</div>
